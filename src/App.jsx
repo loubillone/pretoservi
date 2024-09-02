@@ -1,9 +1,10 @@
 import React from "react";
+import Navegador from "./components/Navegador";
 
 const App = () => {
   return (
     <div>
-      <h1>Petroservi</h1>
+      <Navegador />
     </div>
   );
 };
