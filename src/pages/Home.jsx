@@ -1,9 +1,13 @@
 import React from "react";
+import "../css/home.css";
+import homeFlyer from "../assets/img/homeFlyer.png";
 
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
+      <div className=" fila-imagen-home">
+        <img src={homeFlyer} alt="camioneta petroservi" />
+      </div>
     </div>
   );
 };
