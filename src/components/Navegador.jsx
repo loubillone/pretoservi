@@ -8,10 +8,12 @@ import logoPetro from "../assets/img/logoPetro.png";
 const Navegador = () => {
   return (
     <div>
-      <Navbar expand="lg" className="bg-body-tertiary">
+      <Navbar expand="lg" className="bg-body-tertiary container-nav">
         <Container>
           <Navbar.Brand href="#home">
-            <img src={logoPetro} alt="logo petroservi" />
+            <div classname="container-img-home">
+              <img src={logoPetro} alt="logo petroservi" className="img-nav" />
+            </div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

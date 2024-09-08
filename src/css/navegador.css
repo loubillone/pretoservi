@@ -4,12 +4,34 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "kanit";
+  src: url("../fonts/KanitLato/Kanit/Kanit-Regular.ttf");
+}
+
+.container-nav {
+  height: 4rem;
+}
+
+.container-img-home,
+.img-nav {
+  width: 6rem;
+  margin-bottom: 0.5rem;
+}
+
 .nav-container-items {
   width: 100%;
   display: flex;
   justify-content: end;
+  font-size: 1rem;
 }
 
 .nav-items {
   margin-right: 1.5rem;
+  font-family: "kanit";
+  color: #00215b !important;
+}
+
+.nav-items:hover {
+  font-weight: bold;
 }

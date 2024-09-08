@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "kanitSemibold";
+  src: url("../fonts/KanitLato/Kanit/Kanit-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "kanitRegular";
+  src: url("../fonts/KanitLato/Kanit/Kanit-Regular.ttf");
+}
+
+@font-face {
+  font-family: "latoBold";
+  src: url("../fonts/KanitLato/Lato/Lato-Bold.ttf");
+}
+
+.fila-imagen-home,
+.img-home {
+  width: 100%;
+}
+
+.container-textoImg-home {
+  width: 35rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-73%, -28%);
+  color: #ffffff;
+}
+.titulo-img-home {
+  font-family: "kanitSemibold";
+  font-size: 4.5rem;
+}
+
+.subtitulo-img-home {
+  font-family: "kanitRegular";
+  font-size: 1.8rem;
+}
+
+.texto-img-home {
+  font-family: "latoBold";
+  font-size: 0.7rem;
+}
+
+.boton-img-home {
+  font-family: "kanitRegular";
+  background-color: #d2153d;
+  color: #ffffff;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  border: none;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+/* 
+.boton-img-home:hover {
+  background-color: rgb(227, 49, 49);
+  font-weight: lighter;
+} */
