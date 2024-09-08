@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
-.fila-imagen-home img {
+.fila-imagen-home,
+.img-home {
   width: 100%;
 }
