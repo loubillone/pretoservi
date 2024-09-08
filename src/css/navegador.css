@@ -16,6 +16,7 @@
 .container-img-home,
 .img-nav {
   width: 6rem;
+  margin-bottom: 0.5rem;
 }
 
 .nav-container-items {
