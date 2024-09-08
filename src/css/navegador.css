@@ -10,12 +10,12 @@
 }
 
 .container-nav {
-  height: 5rem;
+  height: 4rem;
 }
 
 .container-img-home,
 .img-nav {
-  width: 8rem;
+  width: 6rem;
 }
 
 .nav-container-items {
@@ -28,5 +28,9 @@
 .nav-items {
   margin-right: 1.5rem;
   font-family: "kanit";
-  color: #00215b;
+  color: #00215b !important;
+}
+
+.nav-items:hover {
+  font-weight: bold;
 }
