@@ -26,7 +26,6 @@ const Home = () => {
       <div className="container-experiencia">
         <div className="boxUno">
           <span className="num-box">147 </span>
-
           <span className="texto-box">Proyectos</span>
         </div>
         <div className="boxDos">
@@ -36,26 +35,53 @@ const Home = () => {
 
         <div className="boxTres">
           <div>
-            <h2>
+            <h2 className="titulo-box-tres ">
               Instalamos, Mantenemos y Suministramos Sistemas Industriales
             </h2>
           </div>
 
-          {/* <div>
-            <img src={tanque} alt="tanque" />
-            <span>Instalación y Canalización</span>
-            <p>Montaje de tanques, cañerías y sistemas eléctricos.</p>
+          <div className="container-data">
+            <div className="box-data">
+              <div>
+                <img src={tanque} alt="tanque" />
+              </div>
+
+              <div>
+                <span className="subtitulo-boxTres">
+                  Instalación y Canalización
+                </span>
+                <p className="parrafo-boxTres">
+                  Montaje de tanques, cañerías y sistemas eléctricos.
+                </p>
+              </div>
+            </div>
+            <div className="box-data">
+              <div>
+                <img src={shape} alt="shape" />
+              </div>
+              <div>
+                <span className="subtitulo-boxTres">
+                  Servicio Técnico y Mantenimiento
+                </span>
+                <p className="parrafo-boxTres">
+                  Mantenimiento integral y soporte técnico especializado.
+                </p>
+              </div>
+            </div>
+            <div className="box-data">
+              <div>
+                <img src={mano} alt="mano" />
+              </div>
+              <div>
+                <span className="subtitulo-boxTres">
+                  Ventas de Repuestos y Accesorios
+                </span>
+                <p className="parrafo-boxTres">
+                  Suministros esenciales para garantizar la operación.
+                </p>
+              </div>
+            </div>
           </div>
-          <div>
-            <img src={shape} alt="shape" />
-            <span>Servicio Técnico y Mantenimiento</span>
-            <p>Mantenimiento integral y soporte técnico especializado.</p>
-          </div>
-          <div>
-            <img src={mano} alt="mano" />
-            <span>Ventas de Repuestos y Accesorios</span>
-            <p>Suministros esenciales para garantizar la operación.</p>
-          </div> */}
         </div>
       </div>
     </div>
