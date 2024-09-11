@@ -19,6 +19,15 @@
   src: url("../fonts/KanitLato/Lato/Lato-Bold.ttf");
 }
 
+@font-face {
+  font-family: "kanitMedium";
+  src: url("../fonts/KanitLato/Kanit/Kanit-Medium.ttf");
+}
+@font-face {
+  font-family: "latoRegular";
+  src: url("../fonts/KanitLato/Lato/Lato-Regular.ttf");
+}
+
 .fila-imagen-home,
 .img-home {
   width: 100%;
@@ -64,3 +73,88 @@
   background-color: rgb(227, 49, 49);
   font-weight: lighter;
 } */
+
+.container-experiencia {
+  display: flex;
+  justify-content: center;
+  margin-left: 5rem;
+}
+
+.boxUno {
+  background-color: #00215b;
+  color: #ffffff;
+  width: 13rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1.7rem;
+  padding-bottom: 1rem;
+}
+
+.num-box {
+  font-family: "kanitSemibold";
+  font-size: 4rem;
+  height: 55%;
+}
+
+.texto-box {
+  font-family: "kanitRegular";
+  font-size: 0.8rem;
+}
+
+.boxDos {
+  background-color: #d2153d;
+  color: #ffffff;
+  width: 13rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1.7rem;
+  padding-bottom: 1rem;
+}
+
+.boxTres {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 23rem;
+  height: 24rem;
+  background-color: #ffffff;
+  transform: translate(-5%, -36%);
+  border-top: solid 5px #001ed3;
+  box-shadow: 5px 7px 9px 1px rgba(191, 191, 191, 0.55);
+  padding: 3rem;
+}
+
+.titulo-box-tres {
+  color: #00215b;
+  font-family: "kanitMedium";
+  font-size: 1.5rem;
+}
+
+.box-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-data img {
+  width: 3rem;
+  margin-right: 1rem;
+}
+
+.subtitulo-boxTres {
+  color: #00215b;
+  font-family: "kanitMedium";
+  font-size: 0.8rem;
+}
+
+.parrafo-boxTres {
+  font-family: "latoRegular";
+  color: #41444b;
+  font-size: 0.7rem;
+  margin-top: 0.3rem;
+}
