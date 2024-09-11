@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "../css/navegador.css";
-import logoPetro from "../assets/img/logoPetro.png";
+import logoPetro from "../assets/img/home/logoPetro.png";
 
 const Navegador = () => {
   return (
