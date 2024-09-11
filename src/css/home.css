@@ -158,3 +158,25 @@
   font-size: 0.7rem;
   margin-top: 0.3rem;
 }
+
+.fila-home-nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.imagen-home-nosotrosUno img {
+  width: 19rem;
+  margin-left: 9rem;
+  border: 10px #ffffff solid;
+  box-shadow: 5px 7px 9px 1px rgba(191, 191, 191, 0.55);
+}
+
+.imagen-home-nosotrosDos img {
+  width: 13rem;
+  border: 10px #ffffff solid;
+  box-shadow: 5px 7px 9px 1px rgba(191, 191, 191, 0.55);
+  transform: translate(45%, -56%);
+}
