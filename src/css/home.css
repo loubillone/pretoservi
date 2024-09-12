@@ -224,3 +224,54 @@
   line-height: 1.4rem;
 }
 /*BOX HOME NOSOTROS*/
+
+/*CARDS*/
+
+.fila-card {
+  height: 30rem;
+  text-align: center;
+}
+
+.div-card-uno img {
+  height: 25rem;
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+.div-card img {
+  height: 25rem;
+  display: block;
+  width: 100%;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+  filter: grayscale(1);
+}
+
+.overlay-container-rojo {
+  position: relative;
+  background-color: rgba(210, 21, 61, 0.85);
+}
+
+.overlay-container-azul {
+  position: relative;
+  background-color: rgba(0, 33, 91, 0.85);
+}
+.overlay-text {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  color: white;
+  padding: 1rem;
+  z-index: 2;
+}
+.overlay-text h3 {
+  font-family: "kanitSemibold";
+  font-size: 1.3rem;
+}
+
+.overlay-text p {
+  font-family: "latoRegular";
+  font-size: 0.8rem;
+}
