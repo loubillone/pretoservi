@@ -78,6 +78,7 @@
   display: flex;
   justify-content: center;
   margin-left: 5rem;
+  height: 22rem;
 }
 
 .boxUno {
@@ -159,14 +160,21 @@
   margin-top: 0.3rem;
 }
 
+.container-home-nosotros {
+  height: 30rem;
+}
+
 .fila-home-nosotros {
   padding-left: 7rem;
   padding-right: 7rem;
+  height: 100%;
 }
-
+.columna-home-nosotros__texto {
+  padding-top: 1rem;
+}
 .imagen-home-nosotrosUno img {
   width: 19rem;
-  margin-left: 9rem;
+  margin-left: 10rem;
   border: 10px #ffffff solid;
   box-shadow: 5px 7px 9px 1px rgba(191, 191, 191, 0.55);
 }
@@ -175,7 +183,7 @@
   width: 13rem;
   border: 10px #ffffff solid;
   box-shadow: 5px 7px 9px 1px rgba(191, 191, 191, 0.55);
-  transform: translate(45%, -56%);
+  transform: translate(25%, -60%);
 }
 
 .titulo-home-nosotros {
@@ -189,7 +197,7 @@
   font-family: "kanitSemibold";
   color: #16213e;
   padding-bottom: 1rem;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
 }
 
 .subtituloDos-home-nosotros {

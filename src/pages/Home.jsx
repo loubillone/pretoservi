@@ -89,7 +89,7 @@ const Home = () => {
 
       <div className="container container-home-nosotros">
         <div className="row fila-home-nosotros">
-          <div className="col">
+          <div className="col columna-home-nosotros__texto">
             <div>
               <span className="titulo-home-nosotros">SOBRE NOSOTROS</span>
               <h2 className="subtitulo-home-nosotros">
@@ -111,7 +111,7 @@ const Home = () => {
               <button className="boton-img-home mt-1">Sobre Nosotros</button>
             </div>
           </div>
-          <div className="col">
+          <div className="col columna-home-nosotros__imagenes">
             <div className="imagen-home-nosotrosUno">
               <img src={homeNosotrosDos} alt="vista arriba" />
             </div>
