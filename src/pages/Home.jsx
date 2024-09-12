@@ -6,6 +6,11 @@ import shape from "../assets/img/home/shape.png";
 import tanque from "../assets/img/home/tanque.png";
 import homeNosotros from "../assets/img/home/homeNosotros.png";
 import homeNosotrosDos from "../assets/img/home/homeNosotrosDos.png";
+import cardUno from "../assets/img/home/cards/cardUno.png";
+import cardDos from "../assets/img/home/cards/cardDos.png";
+import cardTres from "../assets/img/home/cards/cardTres.png";
+import cardCuatro from "../assets/img/home/cards/cardCuatro.png";
+import cardCinco from "../assets/img/home/cards/cardCinco.png";
 
 const Home = () => {
   return (
@@ -118,6 +123,82 @@ const Home = () => {
 
             <div className="imagen-home-nosotrosDos">
               <img src={homeNosotros} alt="surtidor" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container-fluid">
+        <div className="row fila-card no-gutters">
+          <div className="col p-0">
+            <div className="div-card-uno">
+              <img src={cardUno} alt="card uno" />
+            </div>
+          </div>
+          <div className="col p-0">
+            <div className="div-card overlay-container-rojo">
+              <img src={cardDos} alt="card dos" />
+              <div className="overlay-text">
+                <h3>Proyecto Minera JOSEMARIA</h3>
+                <p>
+                  Instalación de surtidor Wayne 3G Super Alto Caudal. Puesta en
+                  marcha. Provincia de San Juan
+                </p>
+              </div>
+
+              <div className="card-flecha-azul">
+                <i className="fa fa-long-arrow-right " aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+          <div className="col p-0">
+            <div className="div-card overlay-container-azul">
+              <img src={cardTres} alt="card tres" />
+              <div className="overlay-text">
+                <h3>Sector Minero YPF JACARANDA</h3>
+                <p>
+                  Instalación y provisión de membranas geotextil y membrana huv
+                  apta y para hidrocarburos instalación y provisión de kit de
+                  sujeción de tks full acero inoxidable con eslingas drakon.
+                </p>
+              </div>
+
+              <div className="card-flecha-roja">
+                <i className="fa fa-long-arrow-right " aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+          <div className="col p-0">
+            <div className="div-card overlay-container-rojo">
+              <img src={cardCuatro} alt="card cuatro" />
+              <div className="overlay-text">
+                <h3>Sector Minero MAFAP SRL</h3>
+                <p>
+                  Instalación de 3 tks. de 40m3 + 1 Tk de 40m3 compartimentado
+                  (20m3+20m3) Instalación de cañerías de descarga centralizada,
+                  cañerías de recuperación de gases, cañerías de ventilación.
+                  Instalación de Cañerías de impulsión doble pared para 3 sump
+                  dispenser óctuples y un sump dispenser dual
+                </p>
+              </div>
+              <div className="card-flecha-azul">
+                <i className="fa fa-long-arrow-right " aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+          <div className="col p-0">
+            <div className="div-card overlay-container-azul">
+              <img src={cardCinco} alt="card cinco" />
+              <div className="overlay-text">
+                <h3>Fortino Construcciones SA.</h3>
+                <p>
+                  Obra Finalizada Instalacion de Cañerías hidráulicas y
+                  eléctricas APE.
+                </p>
+              </div>
+              <div className="card-flecha-roja">
+                <i className="fa fa-long-arrow-right " aria-hidden="true"></i>
+              </div>
             </div>
           </div>
         </div>

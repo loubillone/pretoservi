@@ -170,6 +170,7 @@
 /*BOX HOME NOSOTROS*/
 .container-home-nosotros {
   height: 30rem;
+  margin-bottom: 2rem;
 }
 
 .fila-home-nosotros {
@@ -224,3 +225,84 @@
   line-height: 1.4rem;
 }
 /*BOX HOME NOSOTROS*/
+
+/*CARDS*/
+
+.fila-card {
+  height: 30rem;
+  text-align: center;
+}
+
+.div-card-uno img {
+  height: 25rem;
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+.div-card img {
+  height: 25rem;
+  display: block;
+  width: 100%;
+  margin: 0;
+  position: relative;
+  /* z-index: 1; */
+  filter: grayscale(1);
+}
+
+.overlay-container-rojo {
+  position: relative;
+  background-color: rgba(210, 21, 62, 0.85);
+}
+
+.overlay-container-azul {
+  position: relative;
+  background-color: rgba(0, 33, 91, 0.85);
+}
+
+.overlay-text {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  color: white;
+  padding: 2rem;
+  z-index: 2;
+}
+
+.overlay-text h3 {
+  font-family: "kanitSemibold";
+  font-size: 1.5rem;
+  color: #ffffff;
+  padding-top: 0.7rem;
+  padding-bottom: 2rem;
+  line-height: 2rem;
+}
+
+.overlay-text p {
+  font-family: "latoRegular";
+  font-size: 0.7rem;
+  color: rgba(212, 215, 221, 1);
+  line-height: 1.2rem;
+}
+
+.card-flecha-azul {
+  background-color: #00215b;
+  color: #ffffff;
+  width: 2rem;
+  height: 2rem;
+  padding-top: 0.2rem;
+  position: absolute;
+  top: 85%;
+  left: 80%;
+}
+
+.card-flecha-roja {
+  background-color: #d2153d;
+  color: #ffffff;
+  width: 2rem;
+  height: 2rem;
+  padding-top: 0.2rem;
+  position: absolute;
+  top: 85%;
+  left: 80%;
+}
