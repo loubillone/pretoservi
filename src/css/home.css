@@ -28,6 +28,7 @@
   src: url("../fonts/KanitLato/Lato/Lato-Regular.ttf");
 }
 
+/*IMAGEN HEADER*/
 .fila-imagen-home,
 .img-home {
   width: 100%;
@@ -37,10 +38,11 @@
   width: 35rem;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 47.6%;
   transform: translate(-73%, -28%);
   color: #ffffff;
 }
+
 .titulo-img-home {
   font-family: "kanitSemibold";
   font-size: 4.5rem;
@@ -68,12 +70,14 @@
   font-size: 1rem;
   margin-top: 2rem;
 }
-/* 
-.boton-img-home:hover {
-  background-color: rgb(227, 49, 49);
-  font-weight: lighter;
-} */
 
+.boton-img-home:hover {
+  background-color: #f81847;
+  font-weight: lighter;
+}
+/*IMAGEN HEADER*/
+
+/*BOX EXPERIENCIA*/
 .container-experiencia {
   display: flex;
   justify-content: center;
@@ -135,7 +139,9 @@
   font-family: "kanitMedium";
   font-size: 1.5rem;
 }
+/*BOX EXPERIENCIA*/
 
+/*BOX DATA*/
 .box-data {
   display: flex;
   justify-content: center;
@@ -159,7 +165,9 @@
   font-size: 0.7rem;
   margin-top: 0.3rem;
 }
+/*BOX DATA*/
 
+/*BOX HOME NOSOTROS*/
 .container-home-nosotros {
   height: 30rem;
 }
@@ -169,9 +177,11 @@
   padding-right: 7rem;
   height: 100%;
 }
+
 .columna-home-nosotros__texto {
   padding-top: 1rem;
 }
+
 .imagen-home-nosotrosUno img {
   width: 19rem;
   margin-left: 10rem;
@@ -213,3 +223,4 @@
   font-size: 0.7rem;
   line-height: 1.4rem;
 }
+/*BOX HOME NOSOTROS*/
