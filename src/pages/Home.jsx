@@ -91,10 +91,14 @@ const Home = () => {
         <div className="row fila-home-nosotros">
           <div className="col">
             <div>
-              <span>Sobre nosotros</span>
-              <h2>Soluciones Innovadoras para el Éxito Industrial</h2>
-              <h3>Comprometidos con la Excelencia y la Innovación</h3>
-              <p>
+              <span className="titulo-home-nosotros">SOBRE NOSOTROS</span>
+              <h2 className="subtitulo-home-nosotros">
+                Soluciones Innovadoras para el Éxito Industrial
+              </h2>
+              <h3 className="subtituloDos-home-nosotros">
+                Comprometidos con la Excelencia y la Innovación
+              </h3>
+              <p className="parrafo-home-nosotros">
                 En PetroServi, aplicamos nuestro profundo conocimiento en la
                 instalación y mantenimiento de sistemas industriales para
                 asegurar el éxito en cada proyecto. Ofrecemos soluciones
@@ -104,7 +108,7 @@ const Home = () => {
                 garantizando un servicio confiable y eficiente para la industria
                 petrolera y más allá.
               </p>
-              <button className="boton-img-home">Sobre Nosotros</button>
+              <button className="boton-img-home mt-1">Sobre Nosotros</button>
             </div>
           </div>
           <div className="col">

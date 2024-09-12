@@ -160,11 +160,8 @@
 }
 
 .fila-home-nosotros {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 8rem;
-  padding-right: 8rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
 }
 
 .imagen-home-nosotrosUno img {
@@ -179,4 +176,32 @@
   border: 10px #ffffff solid;
   box-shadow: 5px 7px 9px 1px rgba(191, 191, 191, 0.55);
   transform: translate(45%, -56%);
+}
+
+.titulo-home-nosotros {
+  font-family: "kanitMedium";
+  color: #d2153d;
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+
+.subtitulo-home-nosotros {
+  font-family: "kanitSemibold";
+  color: #16213e;
+  padding-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.subtituloDos-home-nosotros {
+  font-family: "latoBold";
+  color: #00215b;
+  font-size: 0.9rem;
+  padding-bottom: 1rem;
+}
+
+.parrafo-home-nosotros {
+  font-family: "latoRegular";
+  color: #41444b;
+  font-size: 0.7rem;
+  line-height: 1.4rem;
 }
