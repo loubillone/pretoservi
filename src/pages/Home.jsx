@@ -133,14 +133,6 @@ const Home = () => {
           <div className="col p-0">
             <div className="div-card-uno">
               <img src={cardUno} alt="card uno" />
-
-              <div className="overlay-text">
-                <h3>Proyecto Minera JOSEMARIA</h3>
-                <p>
-                  Instalación de surtidor Wayne 3G Super Alto Caudal. Puesta en
-                  marcha. Provincia de San Juan
-                </p>
-              </div>
             </div>
           </div>
           <div className="col p-0">
@@ -152,6 +144,10 @@ const Home = () => {
                   Instalación de surtidor Wayne 3G Super Alto Caudal. Puesta en
                   marcha. Provincia de San Juan
                 </p>
+              </div>
+
+              <div className="card-flecha-azul">
+                <i className="fa fa-long-arrow-right " aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -166,13 +162,17 @@ const Home = () => {
                   sujeción de tks full acero inoxidable con eslingas drakon.
                 </p>
               </div>
+
+              <div className="card-flecha-roja">
+                <i className="fa fa-long-arrow-right " aria-hidden="true"></i>
+              </div>
             </div>
           </div>
           <div className="col p-0">
             <div className="div-card overlay-container-rojo">
               <img src={cardCuatro} alt="card cuatro" />
               <div className="overlay-text">
-                <h3>Sector Minero mAFAP SRL</h3>
+                <h3>Sector Minero MAFAP SRL</h3>
                 <p>
                   Instalación de 3 tks. de 40m3 + 1 Tk de 40m3 compartimentado
                   (20m3+20m3) Instalación de cañerías de descarga centralizada,
@@ -180,6 +180,9 @@ const Home = () => {
                   Instalación de Cañerías de impulsión doble pared para 3 sump
                   dispenser óctuples y un sump dispenser dual
                 </p>
+              </div>
+              <div className="card-flecha-azul">
+                <i className="fa fa-long-arrow-right " aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -192,6 +195,9 @@ const Home = () => {
                   Obra Finalizada Instalacion de Cañerías hidráulicas y
                   eléctricas APE.
                 </p>
+              </div>
+              <div className="card-flecha-roja">
+                <i className="fa fa-long-arrow-right " aria-hidden="true"></i>
               </div>
             </div>
           </div>
