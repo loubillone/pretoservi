@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/home.css";
+import Iframe from "react-iframe";
 import homeFlyer from "../assets/img/home/homeFlyer.png";
 import mano from "../assets/img/home/mano.png";
 import shape from "../assets/img/home/shape.png";
@@ -244,6 +245,22 @@ const Home = () => {
             <div className="img-e">
               <img src={trabajosCuatro} alt="" />
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container-fluid">
+        <div className="row my-5">
+          <div className="col-12 p-0">
+            <Iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8615.548065392919!2d-65.42587390553953!3d-24.782025767148138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3a35151b7f9%3A0xa5cd992cd587f206!2sSalta!5e0!3m2!1ses-419!2sar!4v1726355091636!5m2!1ses-419!2sar"
+              width="100%"
+              height="300"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></Iframe>
           </div>
         </div>
       </div>
