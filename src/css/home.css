@@ -227,7 +227,6 @@
 /*BOX HOME NOSOTROS*/
 
 /*CARDS*/
-
 .fila-card {
   height: 30rem;
   text-align: center;
@@ -306,3 +305,51 @@
   top: 85%;
   left: 80%;
 }
+/*CARDS*/
+
+/*GALERIA TRABAJOS*/
+
+.fila-home-trabajos {
+  text-align: center;
+}
+
+.titulo-home-trabajos {
+  font-family: "kanitMedium";
+  color: #d2153d;
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+
+.subtitulo-home-trabajos {
+  font-family: "kanitSemibold";
+  color: #16213e;
+  padding-bottom: 1rem;
+  font-size: 2.3rem;
+  text-align: center;
+}
+
+.photos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.photos .galeria-trabajos {
+  max-width: 50rem;
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 250px 250px;
+  grid-gap: 1rem;
+}
+
+.photos .galeria-trabajos img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.photos .galeria-trabajos .img-a {
+  grid-row: 1/3;
+}
+/*GALERIA TRABAJOS*/

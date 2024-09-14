@@ -11,6 +11,10 @@ import cardDos from "../assets/img/home/cards/cardDos.png";
 import cardTres from "../assets/img/home/cards/cardTres.png";
 import cardCuatro from "../assets/img/home/cards/cardCuatro.png";
 import cardCinco from "../assets/img/home/cards/cardCinco.png";
+import trabajosUno from "../assets/img/home/trabajos/trabajosUno.jpg";
+import trabajosDos from "../assets/img/home/trabajos/trabajosDos.jpg";
+import trabajosTres from "../assets/img/home/trabajos/trabajosTres.png";
+import trabajosCuatro from "../assets/img/home/trabajos/trabajosCuatro.jpg";
 
 const Home = () => {
   return (
@@ -199,6 +203,46 @@ const Home = () => {
               <div className="card-flecha-roja">
                 <i className="fa fa-long-arrow-right " aria-hidden="true"></i>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="row fila-home-trabajos">
+          <div className="col">
+            <span className="titulo-home-trabajos">NUESTROS TRABAJOS</span>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col">
+            <h2 className="subtitulo-home-trabajos">
+              Algunos de nuestros proyectos
+            </h2>
+          </div>
+        </div>
+
+        <div className="photos">
+          <div className="galeria-trabajos">
+            <div className="img-a">
+              <img src={homeNosotros} alt="" />
+            </div>
+
+            <div className="img-b">
+              <img src={trabajosUno} alt="" />
+            </div>
+
+            <div className="img-c">
+              <img src={trabajosDos} alt="" />
+            </div>
+
+            <div className="img-d">
+              <img src={trabajosTres} alt="" />
+            </div>
+
+            <div className="img-e">
+              <img src={trabajosCuatro} alt="" />
             </div>
           </div>
         </div>
