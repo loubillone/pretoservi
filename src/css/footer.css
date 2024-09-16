@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "latoRegular";
+  src: url("../fonts/KanitLato/Lato/Lato-Regular.ttf");
+}
+@font-face {
+  font-family: "kenitLigth";
+  src: url("../fonts/KanitLato/Kanit/Kanit-Light.ttf");
+}
+
+.container-footer {
+}
+
+.columna-footer-uno {
+  background-color: #d2153d;
+  padding: 5rem;
+}
+
+.columna-footer-dos {
+  background-color: #00215b;
+  padding: 5rem;
+}
+
+.container-img-footer img {
+  width: 7.5rem;
+}
+
+.texto-footerUno {
+  color: #ebecee;
+  font-family: "kenitLigth";
+  font-size: 0.6rem;
+}
+
+.contactanos-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.numero-footerUno {
+  font-family: "kanitSemibold";
+  color: #ffffff;
+}
+
+.container-iconos-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.container-iconos-footer i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+  background-color: #ffffff;
+  color: #001ed3;
+}
+
+.texto-footerUno-final {
+  font-family: "latoRegular";
+  color: #ebecee;
+  font-size: 0.8rem;
+}
