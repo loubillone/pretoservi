@@ -13,7 +13,7 @@
 }
 
 .fila-footer {
-  height: 20rem;
+  height: 22rem;
 }
 
 div .columna-footer-uno {
@@ -49,6 +49,7 @@ div .columna-footer-uno {
 .numero-footerUno {
   font-family: "kanitSemibold";
   color: #ffffff;
+  font-size: 1.5rem;
 }
 
 .container-iconos-footer {
