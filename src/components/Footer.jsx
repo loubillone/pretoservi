@@ -5,8 +5,8 @@ import logoPetroBlanco from "../assets/img/home/logoPetroBlanco.png";
 const Footer = () => {
   return (
     <div>
-      <div className="container-fluid container-footer">
-        <div className="row">
+      <div className="container-fluid ">
+        <div className="row fila-footer">
           <div className="col-5 columna-footer-uno">
             <div className="container-img-footer">
               <img src={logoPetroBlanco} alt="" />

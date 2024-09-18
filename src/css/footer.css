@@ -12,12 +12,18 @@
   src: url("../fonts/KanitLato/Kanit/Kanit-Light.ttf");
 }
 
-.container-footer {
+.fila-footer {
+  height: 20rem;
 }
 
-.columna-footer-uno {
+div .columna-footer-uno {
   background-color: #d2153d;
-  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+  padding: 2rem 7rem 2rem 12rem;
+  height: 100%;
 }
 
 .columna-footer-dos {
@@ -47,8 +53,8 @@
 
 .container-iconos-footer {
   display: flex;
-  justify-content: space-between;
-  width: 30%;
+  justify-content: space-around;
+  gap: 1rem;
 }
 
 .container-iconos-footer i {
