@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "latoRegular";
+  src: url("../fonts/KanitLato/Lato/Lato-Regular.ttf");
+}
+@font-face {
+  font-family: "kenitLigth";
+  src: url("../fonts/KanitLato/Kanit/Kanit-Light.ttf");
+}
+
+@font-face {
+  font-family: "kanitRegular";
+  src: url("../fonts/KanitLato/Kanit/Kanit-Regular.ttf");
+}
+
+.fila-footer {
+  height: 22rem;
+}
+
+div .columna-footer-uno {
+  background-color: #d2153d;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+  padding: 2rem 9rem 2rem 12rem;
+  height: 100%;
+}
+
+.container-img-footer img {
+  width: 7.5rem;
+}
+
+.texto-footerUno {
+  color: #ebecee;
+  font-family: "kenitLigth";
+  font-size: 0.6rem;
+}
+
+.contactanos-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.numero-footerUno {
+  font-family: "kanitSemibold";
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.container-iconos-footer {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.container-iconos-footer i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+  background-color: #ffffff;
+  color: #001ed3;
+}
+
+.texto-footerUno-final {
+  font-family: "latoRegular";
+  color: #ebecee;
+  font-size: 0.7rem;
+}
+
+div .columna-footer-dos {
+  background-color: #00215b;
+  color: white;
+  padding: 3rem 8rem 2rem 4rem;
+}
+
+.titulo-columDos-footer {
+  font-family: "kanitRegular";
+  color: #ffffff;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+
+.columna-internaDos span {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0.8rem;
+  font-family: "latoRegular";
+  color: #d4d7dd;
+  font-size: 0.7rem;
+}
