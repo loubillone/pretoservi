@@ -8,24 +8,24 @@ const Footer = () => {
       <div className="container-fluid ">
         <div className="row fila-footer">
           <div className="col-5 columna-footer-uno">
-            <div className="container-img-footer">
+            <div className="container-img-footer py-2">
               <img src={logoPetroBlanco} alt="" />
             </div>
 
-            <div className="contactanos-footer">
+            <div className="contactanos-footer py-2">
               <span className="texto-footerUno">CONTACTANOS</span>{" "}
               <span className="numero-footerUno">+54 0987 511-2864</span>
             </div>
 
-            <div className="container-iconos-footer">
+            <div className="container-iconos-footer py-3">
               <i class="fa fa-twitter" aria-hidden="true"></i>
               <i class="fa fa-facebook" aria-hidden="true"></i>
               <i class="fa fa-linkedin" aria-hidden="true"></i>
               <i class="fa fa-youtube-play" aria-hidden="true"></i>
             </div>
 
-            <div>
-              <span className="texto-footerUno-final">
+            <div className="py-2">
+              <span className="texto-footerUno-final ">
                 Garantizamos soluciones eficientes y adaptadas a tus
                 necesidades.
               </span>

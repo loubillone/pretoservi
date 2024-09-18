@@ -22,7 +22,7 @@ div .columna-footer-uno {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: start;
-  padding: 2rem 7rem 2rem 12rem;
+  padding: 2rem 9rem 2rem 12rem;
   height: 100%;
 }
 
@@ -72,5 +72,5 @@ div .columna-footer-uno {
 .texto-footerUno-final {
   font-family: "latoRegular";
   color: #ebecee;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
