@@ -12,6 +12,11 @@
   src: url("../fonts/KanitLato/Kanit/Kanit-Light.ttf");
 }
 
+@font-face {
+  font-family: "kanitRegular";
+  src: url("../fonts/KanitLato/Kanit/Kanit-Regular.ttf");
+}
+
 .fila-footer {
   height: 22rem;
 }
@@ -24,11 +29,6 @@ div .columna-footer-uno {
   align-items: start;
   padding: 2rem 9rem 2rem 12rem;
   height: 100%;
-}
-
-.columna-footer-dos {
-  background-color: #00215b;
-  padding: 5rem;
 }
 
 .container-img-footer img {
@@ -72,5 +72,27 @@ div .columna-footer-uno {
 .texto-footerUno-final {
   font-family: "latoRegular";
   color: #ebecee;
+  font-size: 0.7rem;
+}
+
+div .columna-footer-dos {
+  background-color: #00215b;
+  color: white;
+  padding: 3rem 8rem 2rem 4rem;
+}
+
+.titulo-columDos-footer {
+  font-family: "kanitRegular";
+  color: #ffffff;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+
+.columna-internaDos span {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0.8rem;
+  font-family: "latoRegular";
+  color: #d4d7dd;
   font-size: 0.7rem;
 }

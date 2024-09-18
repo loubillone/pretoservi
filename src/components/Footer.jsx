@@ -25,7 +25,7 @@ const Footer = () => {
             </div>
 
             <div className="py-2">
-              <span className="texto-footerUno-final ">
+              <span className="texto-footerUno-final">
                 Garantizamos soluciones eficientes y adaptadas a tus
                 necesidades.
               </span>
@@ -33,28 +33,35 @@ const Footer = () => {
           </div>
 
           <div className="col-7 columna-footer-dos">
-            <div className="row">
-              <div className="col">
-                <div>
+            <div className="row fila-footerDos">
+              <div className="col columna-footer-dosB">
+                <div className=" titulo-columDos-footer">
                   <span>Enlaces Útiles</span>
+                </div>
+
+                <div className="columna-internaDos">
                   <span>Inicio</span>
                   <span>Servicios</span>
                   <span>Galería</span>
                   <span>Contacto</span>
                 </div>
               </div>
-              <div className="col">
-                <div>
+              <div className="col columna-footer-dosB">
+                <div className="titulo-columDos-footer">
                   <span>Nuestros Servicios</span>
+                </div>
+                <div className="columna-internaDos">
                   <span>Instalación de Tanques</span>
                   <span>Mantenimiento General</span>
                   <span>Ventas de Repuestos</span>
                   <span>Cisternas Móviles</span>
                 </div>
               </div>
-              <div className="col">
-                <div>
+              <div className="col columna-footer-dosB">
+                <div className="titulo-columDos-footer">
                   <span>Información Corporativa</span>
+                </div>
+                <div className="columna-internaDos">
                   <span>Sobre Nosotros</span>
                   <span>Política de Privacidad</span>
                   <span>Términos y Condiciones</span>
@@ -62,8 +69,8 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="row">
-              <span>
+            <div className="row texto-footerUno-final">
+              <span className="py-5">
                 Meraki © Todos los derechos reservados. Derechos de autor 2024
               </span>
             </div>
