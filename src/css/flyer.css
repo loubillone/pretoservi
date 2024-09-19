@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.fila-imagen-home {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 100%;
+}
+
+.img-pages {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container-textoImg-flyer {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: white;
+  max-width: 80%;
+}
+
+.titulo-img-flyer {
+  font-size: 2rem;
+  margin: 0;
+  font-family: "kanitSemibold";
+}
+
+.subtitulo-img-flyer {
+  font-size: 0.9rem;
+  margin: 5px 0 0 0;
+  font-family: "latoBold";
+}
+
+.container-pages-contactanos {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  right: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 20rem;
+  background-color: #ffffff;
+  border-top: solid 5px #d2153d;
+  box-shadow: 5px 7px 9px 1px rgba(191, 191, 191, 0.55);
+  padding: 2rem 1rem;
+  z-index: 1;
+}
+
+.texto-pages-contactanos {
+  color: #41444b;
+  font-family: "kenitLigth";
+  font-size: 0.8rem;
+}
+
+.numero-contactanos {
+  color: #00215b;
+  font-family: "kanitMedium";
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+/* Estilos responsivos para pantallas medianas */
+@media (max-width: 768px) {
+  .titulo-img-flyer {
+    font-size: 1.5rem;
+  }
+
+  .subtitulo-img-flyer {
+    font-size: 0.875rem;
+  }
+
+  .container-textoImg-flyer {
+    bottom: 8%;
+    padding: 5px;
+    max-width: 90%;
+  }
+
+  .container-pages-contactanos {
+    display: none;
+  }
+}
+
+/* Estilos responsivos para pantallas pequeñas */
+@media (max-width: 480px) {
+  .titulo-img-flyer {
+    font-size: 1.2rem;
+  }
+
+  .subtitulo-img-flyer {
+    font-size: 0.75rem;
+  }
+
+  .container-pages-contactanos {
+    display: none;
+  }
+}

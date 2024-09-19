@@ -1,9 +1,10 @@
 import React from "react";
+import Flyer from "../components/Flyer";
 
 const Galeria = () => {
   return (
     <div>
-      <h2>Galeria</h2>
+      <Flyer />
     </div>
   );
 };

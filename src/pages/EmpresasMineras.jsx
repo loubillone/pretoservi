@@ -1,9 +1,10 @@
 import React from "react";
+import Flyer from "../components/Flyer";
 
 const EmpresasMineras = () => {
   return (
     <div>
-      <h2>Empresas Mineras</h2>
+      <Flyer />
     </div>
   );
 };
