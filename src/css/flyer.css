@@ -2,3 +2,62 @@
   margin: 0;
   padding: 0;
 }
+
+.fila-imagen-home {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 100%;
+}
+
+.img-pages {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container-textoImg-flyer {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: white;
+  max-width: 80%;
+}
+
+.titulo-img-flyer {
+  font-size: 2rem;
+  margin: 0;
+  font-family: "kanitSemibold";
+}
+
+.subtitulo-img-flyer {
+  font-size: 0.9rem;
+  margin: 5px 0 0 0;
+  font-family: "latoBold";
+}
+
+@media (max-width: 768px) {
+  .titulo-img-flyer {
+    font-size: 1.5rem;
+  }
+
+  .subtitulo-img-flyer {
+    font-size: 0.875rem;
+  }
+
+  .container-textoImg-flyer {
+    padding: 5px;
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .titulo-img-flyer {
+    font-size: 1.2rem;
+  }
+
+  .subtitulo-img-flyer {
+    font-size: 0.75rem;
+  }
+}

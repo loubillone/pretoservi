@@ -37,7 +37,7 @@ const Flyer = () => {
         };
       default:
         return {
-          image: flyerSobreNosotros, // Imagen por defecto
+          image: flyerSobreNosotros,
           title: "Bienvenido",
           subtitle: "Inicio",
         };
@@ -49,7 +49,7 @@ const Flyer = () => {
   return (
     <div>
       <div className="fila-imagen-home">
-        <img src={image} alt={title} className="img-home" />
+        <img src={image} alt={title} className="img-pages" />
         <div className="container-textoImg-flyer">
           <h2 className="titulo-img-flyer">{title}</h2>
           <p className="subtitulo-img-flyer">{subtitle}</p>
