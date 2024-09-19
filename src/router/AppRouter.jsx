@@ -5,6 +5,7 @@ import SobreNosotros from "../pages/SobreNosotros";
 import EmpresasMineras from "../pages/EmpresasMineras";
 import Galeria from "../pages/Galeria";
 import Contacto from "../pages/Contacto";
+import Flyer from "../components/Flyer";
 
 const AppRouter = () => {
   return (
