@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div .container-sobreN {
+  margin: 0;
+  margin-top: 7rem;
+  margin-bottom: 3rem;
+}
+
+.div-img-sobreN {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2rem;
+}
+
+.div-img-sobreN img {
+  width: 18rem;
+}
+.fila-sobreN {
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo-sobreN {
+  font-family: "kanitMedium";
+  color: #d2153d;
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+
+.subtitulo-sobreN {
+  font-family: "kanitSemibold";
+  color: #000000;
+  padding-bottom: 1rem;
+  font-size: 2.3rem;
+}
+
+.parrafo-sobreN {
+  font-family: "latoRegular";
+  color: #000000;
+  font-size: 0.7rem;
+  line-height: 1.4rem;
+  padding-left: 2rem;
+  padding-right: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
