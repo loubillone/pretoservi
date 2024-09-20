@@ -2,6 +2,7 @@ import React from "react";
 import "../css/sobreNosotros.css";
 import Flyer from "../components/Flyer";
 import sobreN from "../assets/img/sobreNosotros/sobreN.png";
+import sobreNdos from "../assets/img/sobreNosotros/sobreNdos.png";
 
 const SobreNosotros = () => {
   return (
@@ -41,6 +42,33 @@ const SobreNosotros = () => {
               <div className="col">
                 <button className=" boton-img-home">Contactanos</button>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="fila-imagen-sobreNdos">
+        <img src={sobreNdos} alt="" className="img-pages-sobreNdos" />
+        <div>
+          <div className="row fila-textoImg-sobreNdos">
+            <div className="col">
+              <h4 className="titulo-sobreN-img">Solicita una Cotización</h4>
+            </div>
+            <div className="col">
+              <h3 className="subtitulo-sobreN-img">Impulsa tu Proyecto Hoy</h3>
+            </div>
+            <div className="col">
+              <p className="parrafo-sobreN-img">
+                PetroServi es una empresa líder en la industria petrolera,
+                especializada en la instalación de tanques de combustible,
+                cañerías hidráulicas, y canalizaciones eléctricas
+                antiexplosivas. Desde nuestros inicios, nos hemos comprometido
+                con la calidad y la seguridad, convirtiéndonos en un referente
+                confiable en el sector.
+              </p>
+            </div>
+            <div className="col">
+              <button className="boton-img-sobreN">Contactanos</button>
             </div>
           </div>
         </div>

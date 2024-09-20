@@ -48,3 +48,66 @@ div .container-sobreN {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
+.fila-imagen-sobreNdos {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 100%;
+}
+
+.img-pages-sobreNdos {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.fila-textoImg-sobreNdos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.titulo-sobreN-img {
+  font-family: "latoRegular";
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.subtitulo-sobreN-img {
+  font-family: "kanitSemibold";
+  color: #ffffff;
+  padding-bottom: 0.5rem;
+  font-size: 2.5rem;
+}
+
+.parrafo-sobreN-img {
+  font-family: "latoRegular";
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+
+.boton-img-sobreN {
+  font-family: "kanitRegular";
+  background-color: #d2153d;
+  color: #ffffff;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  border: none;
+  font-size: 1rem;
+  margin-top: 0.2rem;
+}
+
+.boton-img-sobreN:hover {
+  background-color: #f81847;
+  font-weight: lighter;
+}
