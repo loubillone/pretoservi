@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "kanitBold";
+  src: url("../fonts/KanitLato/Kanit/Kanit-Bold.ttf");
+}
+
+@font-face {
+  font-family: "kanitExtraL";
+  src: url("../fonts/KanitLato/Kanit/Kanit-ExtraLight.ttf");
+}
+
 div .container-sobreN {
   margin: 0;
   margin-top: 7rem;
@@ -19,6 +29,7 @@ div .container-sobreN {
 .div-img-sobreN img {
   width: 18rem;
 }
+
 .fila-sobreN {
   display: flex;
   flex-direction: column;
@@ -116,20 +127,55 @@ div .container-sobreN {
   width: 100vw;
   height: auto;
 }
+
 .fila-cajas-numero {
   position: absolute;
   top: 90%;
   left: 0%;
-  width: 100%;
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
 }
+
 .caja-numeros-sobreN {
   border: 1px solid #ccc;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 10rem;
+  width: 20rem;
   height: 7rem;
-  margin-left: 4rem;
+  margin-left: 3rem;
   background-color: #ffffff;
   box-shadow: 5px 7px 9px 1px rgba(191, 191, 191, 0.55);
+}
+
+.cajaNumSobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  background-color: #d2153d;
+  color: #ffffff;
+  font-family: "kanitBold";
+  font-size: 1.8rem;
+  margin-right: 1rem;
+}
+
+.titulo-caja-imagenNos {
+  font-family: "kanitBold";
+  color: #00215b;
+  font-size: 1rem;
+}
+
+.texto-caja-imagenNos {
+  font-family: "kanitBold";
+  color: #000000;
+  font-family: "kanitExtraL";
+  font-size: 0.9rem;
+}
+
+.caja-texto-sobreN {
+  display: flex;
+  flex-direction: column;
 }

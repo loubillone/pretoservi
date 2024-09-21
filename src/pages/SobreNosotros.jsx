@@ -76,30 +76,40 @@ const SobreNosotros = () => {
         <div className="container cajas-sobreN">
           <div className="row fila-cajas-numero">
             <div className="col caja-numeros-sobreN">
-              <div>
+              <div className="cajaNumSobre">
                 <span>01</span>
               </div>
-              <div>
-                <span>Asesoramiento Profesional</span>
-                <span>Soluciones a medida y efectivas</span>
+              <div className="caja-texto-sobreN">
+                <span className="titulo-caja-imagenNos">
+                  Asesoramiento Profesional
+                </span>
+                <span className="texto-caja-imagenNos">
+                  Soluciones a medida y efectivas
+                </span>
               </div>
             </div>
             <div className="col caja-numeros-sobreN ">
-              <div>
+              <div className="cajaNumSobre">
                 <span>02</span>
               </div>
-              <div>
-                <span>Instalaciones Seguras</span>
-                <span>Servicios de instalación confiables</span>
+              <div className="caja-texto-sobreN">
+                <span className="titulo-caja-imagenNos">
+                  Instalaciones Seguras
+                </span>
+                <span className="texto-caja-imagenNos">
+                  Servicios de instalación confiables
+                </span>
               </div>
             </div>
             <div className="col caja-numeros-sobreN ">
-              <div>
+              <div className="cajaNumSobre">
                 <span>03</span>
               </div>
-              <div>
-                <span>Soporte Completo</span>
-                <span>Mantenimiento y repuestos sin interrupciones</span>
+              <div className="caja-texto-sobreN">
+                <span className="titulo-caja-imagenNos">Soporte Completo</span>
+                <span className="texto-caja-imagenNos">
+                  Mantenimiento y repuestos sin interrupciones
+                </span>
               </div>
             </div>
           </div>
