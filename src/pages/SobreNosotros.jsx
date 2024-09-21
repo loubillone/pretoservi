@@ -72,6 +72,38 @@ const SobreNosotros = () => {
             </div>
           </div>
         </div>
+
+        <div className="container cajas-sobreN">
+          <div className="row fila-cajas-numero">
+            <div className="col caja-numeros-sobreN">
+              <div>
+                <span>01</span>
+              </div>
+              <div>
+                <span>Asesoramiento Profesional</span>
+                <span>Soluciones a medida y efectivas</span>
+              </div>
+            </div>
+            <div className="col caja-numeros-sobreN ">
+              <div>
+                <span>02</span>
+              </div>
+              <div>
+                <span>Instalaciones Seguras</span>
+                <span>Servicios de instalación confiables</span>
+              </div>
+            </div>
+            <div className="col caja-numeros-sobreN ">
+              <div>
+                <span>03</span>
+              </div>
+              <div>
+                <span>Soporte Completo</span>
+                <span>Mantenimiento y repuestos sin interrupciones</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
