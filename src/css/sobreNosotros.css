@@ -191,18 +191,18 @@ div .container-sobreN {
   align-items: center;
   width: 23rem;
   height: 24rem;
-  transform: translate(-5%, -36%);
   padding: 3rem;
 }
 
 .caja-form-instalacion {
   width: 100%;
   margin-top: 10rem;
-  margin-bottom: 10rem;
+  margin-bottom: 8rem;
 }
 
 .fila-form-instalacion {
   width: 100%;
+  padding-left: 8rem;
 }
 
 .subtitulo-sobreN-form {
