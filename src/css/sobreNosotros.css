@@ -13,6 +13,10 @@
   font-family: "kanitExtraL";
   src: url("../fonts/KanitLato/Kanit/Kanit-ExtraLight.ttf");
 }
+@font-face {
+  font-family: "latoItalic";
+  src: url("../fonts/KanitLato/Lato/Lato-Italic.ttf");
+}
 
 div .container-sobreN {
   margin: 0;
@@ -178,4 +182,43 @@ div .container-sobreN {
 .caja-texto-sobreN {
   display: flex;
   flex-direction: column;
+}
+
+.boxInstalacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 23rem;
+  height: 24rem;
+  transform: translate(-5%, -36%);
+  padding: 3rem;
+}
+
+.caja-form-instalacion {
+  width: 100%;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.fila-form-instalacion {
+  width: 100%;
+}
+
+.subtitulo-sobreN-form {
+  font-family: "kanitSemibold";
+  color: #00215b;
+  font-size: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.input-text {
+  font-family: "latoItalic";
+  color: #000000;
+  margin-bottom: 1.8rem;
+}
+
+.text-area {
+  height: 20rem;
 }

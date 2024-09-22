@@ -3,6 +3,9 @@ import "../css/sobreNosotros.css";
 import Flyer from "../components/Flyer";
 import sobreN from "../assets/img/sobreNosotros/sobreN.png";
 import sobreNdos from "../assets/img/sobreNosotros/sobreNdos.png";
+import mano from "../assets/img/home/mano.png";
+import shape from "../assets/img/home/shape.png";
+import tanque from "../assets/img/home/tanque.png";
 
 const SobreNosotros = () => {
   return (
@@ -110,6 +113,117 @@ const SobreNosotros = () => {
                 <span className="texto-caja-imagenNos">
                   Mantenimiento y repuestos sin interrupciones
                 </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container caja-form-instalacion">
+        <div className="row fila-form-instalacion">
+          <div className="col">
+            <div>
+              <span className="titulo-sobreN">CONSULTANOS</span>
+              <h3 className="subtitulo-sobreN-form">
+                Solicitar una Cotización
+              </h3>
+            </div>
+            <form>
+              <div className="row">
+                <div className="col">
+                  <input
+                    type="text"
+                    class="form-control input-text"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="Nombre Completo"
+                  />
+
+                  <input
+                    type="number"
+                    class="form-control input-text"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="Número de teléfono"
+                  />
+                </div>
+
+                <div className="col">
+                  <div class="mb-3">
+                    <input
+                      type="email"
+                      class="form-control input-text"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                      placeholder="Email"
+                    />
+
+                    <input
+                      type="text"
+                      class="form-control input-text"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                      placeholder="Servicio"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <textarea
+                rows="4"
+                name=""
+                id=""
+                class="form-control input-text"
+                placeholder="Mensaje"
+              ></textarea>
+              <button className="boton-img-home mt-1">Enviar</button>
+            </form>
+          </div>
+          <div className="col">
+            <div>
+              <div className="boxInstalacion">
+                <div className="container-data">
+                  <div className="box-data">
+                    <div>
+                      <img src={tanque} alt="tanque" />
+                    </div>
+
+                    <div>
+                      <span className="subtitulo-boxTres">
+                        Instalación y Canalización
+                      </span>
+                      <p className="parrafo-boxTres">
+                        Montaje de tanques, cañerías y sistemas eléctricos.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="box-data">
+                    <div>
+                      <img src={shape} alt="shape" />
+                    </div>
+                    <div>
+                      <span className="subtitulo-boxTres">
+                        Servicio Técnico y Mantenimiento
+                      </span>
+                      <p className="parrafo-boxTres">
+                        Mantenimiento integral y soporte técnico especializado.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="box-data">
+                    <div>
+                      <img src={mano} alt="mano" />
+                    </div>
+                    <div>
+                      <span className="subtitulo-boxTres">
+                        Ventas de Repuestos y Accesorios
+                      </span>
+                      <p className="parrafo-boxTres">
+                        Suministros esenciales para garantizar la operación.
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
