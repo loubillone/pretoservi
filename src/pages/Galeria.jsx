@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Flyer from "../components/Flyer";
 import "../css/galeria.css";
 import imagenGalUno from "../assets/img/galeria/imagenGalUno.png";
@@ -12,47 +12,44 @@ import imagenGalOcho from "../assets/img/galeria/imagenGalOcho.png";
 import imagenGalNueve from "../assets/img/galeria/imagenGalNueve.png";
 
 const Galeria = () => {
+  const imagenes = [
+    imagenGalUno,
+    imagenGalDos,
+    imagenGalTres,
+    imagenGalCuatro,
+    imagenGalCinco,
+    imagenGalSeis,
+    imagenGalSiete,
+    imagenGalOcho,
+    imagenGalNueve,
+  ];
+  const [data, setData] = useState({ imagen: "", index: 0 });
+
+  const vistaImagen = (imagen, index) => {
+    setData({ imagen, index });
+  };
   return (
     <div>
       <Flyer />
       <div>
+        {data.imagen && (
+          <div className="data-galeria">
+            <img src={data.imagen} alt="" className="visualizadorImg" />
+          </div>
+        )}
         <div className="photos-galeria">
           <div className="galeria-galeria">
-            <div>
-              <img src={imagenGalUno} alt="" />
-            </div>
-
-            <div className="img-b">
-              <img src={imagenGalDos} alt="" />
-            </div>
-
-            <div className="img-c">
-              <img src={imagenGalTres} alt="" />
-            </div>
-
-            <div className="img-d">
-              <img src={imagenGalCuatro} alt="" />
-            </div>
-
-            <div className="img-f">
-              <img src={imagenGalCinco} alt="" />
-            </div>
-
-            <div className="img-g">
-              <img src={imagenGalSeis} alt="" />
-            </div>
-
-            <div className="img-h">
-              <img src={imagenGalSiete} alt="" />
-            </div>
-
-            <div className="img-i">
-              <img src={imagenGalOcho} alt="" />
-            </div>
-
-            <div className="img-j">
-              <img src={imagenGalNueve} alt="" />
-            </div>
+            {imagenes.map((imagen, index) => {
+              return (
+                <img
+                  src={imagen}
+                  key={index}
+                  alt=""
+                  className="myImg"
+                  onClick={() => vistaImagen(imagen, index)}
+                />
+              );
+            })}
           </div>
         </div>
       </div>
