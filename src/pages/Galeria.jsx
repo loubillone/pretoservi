@@ -28,15 +28,47 @@ const Galeria = () => {
   const vistaImagen = (imagen, index) => {
     setData({ imagen, index });
   };
+
+  const accionImagen = (accion) => {
+    let i = data.index;
+
+    if (accion === "imagen-siguiente") {
+      setData({ imagen: imagenes[i + 1], index: i + 1 });
+    }
+    if (accion === "imagen-previa") {
+      setData({ imagen: imagenes[i - 1], index: i - 1 });
+    }
+
+    if (!accion) {
+      setData({ imagen: "", index: "" });
+    }
+  };
   return (
     <div>
       <Flyer />
       <div>
         {data.imagen && (
           <div className="data-galeria">
+            <button className="boton-galeria" onClick={() => accionImagen()}>
+              X
+            </button>
+
+            <button
+              className="boton-previo"
+              onClick={() => accionImagen("imagen-previa")}
+            >
+              <i class="fa fa-angle-left" aria-hidden="true"></i>
+            </button>
             <img src={data.imagen} alt="" className="visualizadorImg" />
+            <button
+              className="boton-siguiente"
+              onClick={() => accionImagen("imagen-siguiente")}
+            >
+              <i class="fa fa-angle-right" aria-hidden="true"></i>
+            </button>
           </div>
         )}
+
         <div className="photos-galeria">
           <div className="galeria-galeria">
             {imagenes.map((imagen, index) => {
