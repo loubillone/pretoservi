@@ -1,12 +1,13 @@
 import React from "react";
 import Flyer from "../components/Flyer";
 import Mapa from "../components/Mapa";
+import "../css/contacto.css";
 
 const Contacto = () => {
   return (
     <div>
       <Flyer />
-      <div className="container">
+      <div className="container container-form-contacto">
         <div className="row">
           <div className="col">
             <form>
