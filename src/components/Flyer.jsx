@@ -56,12 +56,14 @@ const Flyer = () => {
         </div>
       </div>
 
-      <div>
-        <div className="container-pages-contactanos">
-          <span className="texto-pages-contactanos">CONTACTANOS</span>
-          <p className="numero-contactanos">+54 0987 511-2864</p>
+      {location.pathname !== "/contacto" && (
+        <div>
+          <div className="container-pages-contactanos">
+            <span className="texto-pages-contactanos">CONTACTANOS</span>
+            <p className="numero-contactanos">+54 0987 511-2864</p>
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 };
