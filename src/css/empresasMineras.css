@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedor-empMineras {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+.fila-empMineras {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.fila-empMineras .titulo-empMineras {
+  font-size: 2.6rem;
+  font-family: "kanitMedium";
+  padding: 3rem 8rem 3rem 10rem;
+  line-height: 4rem;
+}
+
+.grilla {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.grilla .grilla-empMineras {
+  max-width: 50rem;
+  display: grid;
+  grid-template-columns: 26rem 26rem;
+  grid-template-rows: 19rem 19rem 19rem 19rem;
+}
+
+.grilla .grilla-empMineras img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.grilla .grilla-empMineras .texto-a {
+  background-color: #d2153d;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 4rem 2.5rem 4rem 2.5rem;
+}
+
+.grilla .grilla-empMineras .texto-b {
+  grid-row: 2/3;
+  background-color: #00215b;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 4rem 2.5rem 4rem 2.5rem;
+}
+
+.grilla .grilla-empMineras .texto-c {
+  background-color: #d2153d;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 4rem 2.5rem 4rem 2.5rem;
+}
+
+.grilla .grilla-empMineras .texto-d {
+  grid-row: 4/5;
+  background-color: #00215b;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 4rem 2.5rem 4rem 2.5rem;
+}
+
+.grilla .grilla-empMineras .img-b {
+  grid-column: 2/3;
+}
+
+.grilla .grilla-empMineras .img-d {
+  grid-column: 2/3;
+}
+
+.titulo-grilla-empMineras {
+  font-family: "kanitBold";
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.parrafo-grilla-empMineras {
+  font-family: "latoRegular";
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+  font-weight: 300;
+}
