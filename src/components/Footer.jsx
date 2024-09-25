@@ -18,10 +18,10 @@ const Footer = () => {
             </div>
 
             <div className="container-iconos-footer py-3">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-              <i class="fa fa-linkedin" aria-hidden="true"></i>
-              <i class="fa fa-youtube-play" aria-hidden="true"></i>
+              <i className="fa fa-twitter" aria-hidden="true"></i>
+              <i className="fa fa-facebook" aria-hidden="true"></i>
+              <i className="fa fa-linkedin" aria-hidden="true"></i>
+              <i className="fa fa-youtube-play" aria-hidden="true"></i>
             </div>
 
             <div className="py-2">

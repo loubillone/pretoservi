@@ -31,7 +31,7 @@ const Home = () => {
             especializadas, cisternas móviles y más. ¡Encuentra lo que necesitas
             para mantener tu operación funcionando al máximo!
           </p>
-          <button className=" boton-img-home">Contactanos</button>
+          <button className="boton-img-home">Contactanos</button>
         </div>
       </div>
 
@@ -133,7 +133,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="container-fluid">
+      <div className="container-fluid container-cards-home">
         <div className="row fila-card no-gutters">
           <div className="col p-0">
             <div className="div-card-uno">

@@ -233,6 +233,11 @@
 /*BOX HOME NOSOTROS*/
 
 /*CARDS*/
+
+.container-cards-home {
+  overflow-x: hidden;
+}
+
 .fila-card {
   height: 30rem;
   text-align: center;
@@ -359,3 +364,255 @@
   grid-row: 1/3;
 }
 /*GALERIA TRABAJOS*/
+
+/*MEDIA QUERIES*/
+
+/* Para pantallas de tamaño medio (tablets y pantallas medianas) */
+@media (max-width: 768px) {
+  /*IMAGEN HEADER*/
+  .container-textoImg-home {
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .titulo-img-home {
+    font-size: 2.5rem;
+  }
+
+  .subtitulo-img-home {
+    font-size: 1rem;
+  }
+
+  .texto-img-home {
+    font-size: 0.7rem;
+  }
+
+  .boton-img-home {
+    font-size: 0.9rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    font-size: 0.7rem;
+  }
+  /*IMAGEN HEADER*/
+
+  /*BOX EXPERIENCIA*/
+
+  .container-experiencia {
+    height: 17.5rem;
+  }
+  .boxUno {
+    width: 9rem;
+    height: 7rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .num-box {
+    font-size: 2.5rem;
+    height: 55%;
+  }
+
+  .texto-box {
+    font-size: 0.5rem;
+  }
+
+  .boxDos {
+    width: 9rem;
+    height: 7rem;
+    padding-left: 1.7rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .boxTres {
+    width: 19rem;
+    height: 22rem;
+
+    padding: 2.5rem;
+  }
+
+  .titulo-box-tres {
+    font-size: 1rem;
+  }
+
+  .box-data img {
+    width: 2.4rem;
+    margin-right: 1rem;
+  }
+
+  .subtitulo-boxTres {
+    font-size: 0.7rem;
+  }
+
+  .parrafo-boxTres {
+    font-size: 0.5rem;
+    margin-top: 0.2rem;
+  }
+  /*BOX EXPERIENCIA*/
+
+  /*SOBRE NOSOTROS*/
+
+  .container-home-nosotros {
+    height: 45rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .imagen-home-nosotrosUno img {
+    width: 13rem;
+    margin-left: 11rem;
+  }
+
+  .imagen-home-nosotrosDos img {
+    width: 10rem;
+    transform: translate(65%, -60%);
+  }
+
+  .titulo-home-nosotros {
+    font-size: 0.5rem;
+  }
+
+  .subtitulo-home-nosotros {
+    /* padding-bottom: 1rem; */
+    font-size: 2rem;
+  }
+
+  .subtituloDos-home-nosotros {
+    font-size: 0.7rem;
+  }
+
+  .parrafo-home-nosotros {
+    font-size: 0.6rem;
+    line-height: 1.3rem;
+  } /*SOBRE NOSOTROS*/
+
+  /*CARDS*/
+
+  /*CARDS*/
+}
+
+/* -------------------------------------------------------------------------*/
+/*Para pantallas pequeñas (smartphones) */
+@media (max-width: 375px) {
+  /*IMAGEN HEADER*/
+
+  .container-textoImg-home {
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .titulo-img-home {
+    font-size: 1rem;
+  }
+
+  .subtitulo-img-home {
+    font-size: 0.6rem;
+  }
+
+  .texto-img-home {
+    font-size: 0.5rem;
+  }
+
+  .boton-img-home {
+    font-size: 0.3rem;
+    margin-top: 0.4rem;
+    padding: 0.4rem 1.5rem 0.3rem 1.5rem;
+    font-size: 0.4rem;
+  }
+  /*IMAGEN HEADER*/
+
+  /*BOX EXPERIENCIA*/
+  .container-experiencia {
+    flex-direction: column;
+    margin-left: 2.5rem;
+    height: 20rem;
+  }
+
+  .boxTres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: none;
+    margin-top: 0.4rem;
+    margin-left: 2rem;
+    width: 15rem;
+    padding: 1rem;
+    height: auto;
+  }
+
+  .titulo-box-tres {
+    font-size: 0.9rem;
+  }
+
+  .boxUno,
+  .boxDos {
+    display: none;
+  }
+
+  .box-data {
+    justify-content: start;
+  }
+
+  .box-data img {
+    width: 2rem;
+    margin-right: 1rem;
+  }
+
+  .subtitulo-boxTres {
+    font-size: 0.5rem;
+  }
+
+  .parrafo-boxTres {
+    font-size: 0.5rem;
+    margin-top: 0.1rem;
+  }
+  /*BOX EXPERIENCIA*/
+
+  /*SOBRE NOSOTROS*/
+  .container-home-nosotros {
+    height: 35rem;
+    margin-bottom: 1rem;
+  }
+
+  .fila-home-nosotros {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imagen-home-nosotrosUno img {
+    width: 9rem;
+    margin-left: 6.5rem;
+    border: 5px #ffffff solid;
+  }
+  .imagen-home-nosotrosDos img {
+    width: 7rem;
+    border: 5px #ffffff solid;
+    transform: translate(40%, -40%);
+  }
+
+  .titulo-home-nosotros {
+    font-size: 0.4rem;
+  }
+
+  .subtitulo-home-nosotros {
+    padding-bottom: 0.7rem;
+    font-size: 1.4rem;
+  }
+
+  .subtituloDos-home-nosotros {
+    font-size: 0.6rem;
+    padding-bottom: 0.7rem;
+  }
+
+  .parrafo-home-nosotros {
+    font-size: 0.5rem;
+    line-height: 1rem;
+  } /*SOBRE NOSOTROS*/
+
+  /*CARDS*/
+  .container-cards-home {
+    display: none;
+  } /*CARDS*/
+}
