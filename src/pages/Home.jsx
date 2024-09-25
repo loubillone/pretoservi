@@ -31,11 +31,11 @@ const Home = () => {
             especializadas, cisternas móviles y más. ¡Encuentra lo que necesitas
             para mantener tu operación funcionando al máximo!
           </p>
-          <button className=" boton-img-home">Contactanos</button>
+          <button className="boton-img-home">Contactanos</button>
         </div>
       </div>
 
-      <div className="container-experiencia">
+      {/* <div className="container-experiencia">
         <div className="boxUno">
           <span className="num-box">147 </span>
           <span className="texto-box">Proyectos</span>
@@ -95,9 +95,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="container container-home-nosotros">
+      {/* <div className="container container-home-nosotros">
         <div className="row fila-home-nosotros">
           <div className="col columna-home-nosotros__texto">
             <div>
@@ -131,9 +131,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="container-fluid">
+      {/* <div className="container-fluid container-cards-home">
         <div className="row fila-card no-gutters">
           <div className="col p-0">
             <div className="div-card-uno">
@@ -247,9 +247,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <Mapa />
+      {/* <Mapa /> */}
     </div>
   );
 };
