@@ -97,7 +97,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* <div className="container container-home-nosotros">
+      <div className="container container-home-nosotros">
         <div className="row fila-home-nosotros">
           <div className="col columna-home-nosotros__texto">
             <div>
@@ -131,7 +131,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
 
       {/* <div className="container-fluid container-cards-home">
         <div className="row fila-card no-gutters">
