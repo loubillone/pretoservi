@@ -449,6 +449,13 @@
   }
   /*BOX EXPERIENCIA*/
 
+  /*SOBRE NOSOTROS*/
+
+  .container-home-nosotros {
+    height: 45rem;
+    margin-bottom: 0.4rem;
+  }
+
   .imagen-home-nosotrosUno img {
     width: 13rem;
     margin-left: 11rem;
@@ -475,9 +482,14 @@
   .parrafo-home-nosotros {
     font-size: 0.6rem;
     line-height: 1.3rem;
-  }
+  } /*SOBRE NOSOTROS*/
+
+  /*CARDS*/
+
+  /*CARDS*/
 }
 
+/* -------------------------------------------------------------------------*/
 /*Para pantallas pequeñas (smartphones) */
 @media (max-width: 375px) {
   /*IMAGEN HEADER*/
@@ -556,7 +568,9 @@
   }
   /*BOX EXPERIENCIA*/
 
+  /*SOBRE NOSOTROS*/
   .container-home-nosotros {
+    height: 35rem;
     margin-bottom: 1rem;
   }
 
@@ -595,5 +609,10 @@
   .parrafo-home-nosotros {
     font-size: 0.5rem;
     line-height: 1rem;
-  }
+  } /*SOBRE NOSOTROS*/
+
+  /*CARDS*/
+  .container-cards-home {
+    display: none;
+  } /*CARDS*/
 }

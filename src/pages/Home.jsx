@@ -133,7 +133,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* <div className="container-fluid container-cards-home">
+      <div className="container-fluid container-cards-home">
         <div className="row fila-card no-gutters">
           <div className="col p-0">
             <div className="div-card-uno">
@@ -247,9 +247,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
 
-      {/* <Mapa /> */}
+      <Mapa />
     </div>
   );
 };

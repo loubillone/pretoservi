@@ -8,7 +8,7 @@ const App = () => {
     <div>
       <Navegador />
       <AppRouter />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
