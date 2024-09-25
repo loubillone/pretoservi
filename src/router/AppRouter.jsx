@@ -5,11 +5,13 @@ import SobreNosotros from "../pages/SobreNosotros";
 import EmpresasMineras from "../pages/EmpresasMineras";
 import Galeria from "../pages/Galeria";
 import Contacto from "../pages/Contacto";
+import Navegador from "../components/Navegador";
 
 const AppRouter = () => {
   return (
     <div>
       <BrowserRouter>
+        <Navegador />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/sobreNosotros" element={<SobreNosotros />} />
