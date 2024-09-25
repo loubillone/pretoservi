@@ -35,7 +35,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* <div className="container-experiencia">
+      <div className="container-experiencia">
         <div className="boxUno">
           <span className="num-box">147 </span>
           <span className="texto-box">Proyectos</span>
@@ -95,7 +95,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
 
       {/* <div className="container container-home-nosotros">
         <div className="row fila-home-nosotros">
