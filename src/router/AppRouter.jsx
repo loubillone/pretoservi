@@ -16,6 +16,7 @@ const AppRouter = () => {
           <Route path="/empresasMineras" element={<EmpresasMineras />} />
           <Route path="/galeria" element={<Galeria />} />
           <Route path="/contacto" element={<Contacto />} />
+          <Route path="/*" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </div>
