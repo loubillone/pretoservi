@@ -397,6 +397,10 @@
   /*IMAGEN HEADER*/
 
   /*BOX EXPERIENCIA*/
+
+  .container-experiencia {
+    height: 17.5rem;
+  }
   .boxUno {
     width: 9rem;
     height: 7rem;
@@ -444,11 +448,40 @@
     margin-top: 0.2rem;
   }
   /*BOX EXPERIENCIA*/
+
+  .imagen-home-nosotrosUno img {
+    width: 13rem;
+    margin-left: 11rem;
+  }
+
+  .imagen-home-nosotrosDos img {
+    width: 10rem;
+    transform: translate(65%, -60%);
+  }
+
+  .titulo-home-nosotros {
+    font-size: 0.5rem;
+  }
+
+  .subtitulo-home-nosotros {
+    /* padding-bottom: 1rem; */
+    font-size: 2rem;
+  }
+
+  .subtituloDos-home-nosotros {
+    font-size: 0.7rem;
+  }
+
+  .parrafo-home-nosotros {
+    font-size: 0.6rem;
+    line-height: 1.3rem;
+  }
 }
 
 /*Para pantallas pequeñas (smartphones) */
 @media (max-width: 375px) {
   /*IMAGEN HEADER*/
+
   .container-textoImg-home {
     width: 90%;
     top: 50%;
@@ -480,6 +513,7 @@
   .container-experiencia {
     flex-direction: column;
     margin-left: 2.5rem;
+    height: 20rem;
   }
 
   .boxTres {
@@ -523,7 +557,6 @@
   /*BOX EXPERIENCIA*/
 
   .container-home-nosotros {
-    /* height: 30rem; */
     margin-bottom: 1rem;
   }
 
