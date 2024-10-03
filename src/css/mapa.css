@@ -60,6 +60,27 @@
 
 /*MEDIA QUERIES*/
 @media (max-width: 768px) {
+  .container-home-infoDir {
+    width: 14rem;
+    height: 10rem;
+    padding: 2rem 1rem 1.8rem 1rem;
+    margin-left: 1.5rem;
+  }
+
+  .texto-infoPetro {
+    padding-bottom: 0.1rem;
+  }
+
+  .subtexto-infoPetro {
+    font-size: 1.3rem;
+  }
+
+  .icono-home-infoPetro img {
+    margin-bottom: 2rem;
+  }
+  .fila-home-infoPetro {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 375px) {
