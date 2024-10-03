@@ -528,7 +528,7 @@
 
 /* -------------------------------------------------------------------------*/
 /*Para pantallas pequeñas (smartphones) */
-@media (max-width: 375px) {
+@media (max-width: 395px) {
   /*IMAGEN HEADER*/
 
   .container-textoImg-home {

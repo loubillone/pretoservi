@@ -113,7 +113,7 @@ div .columna-footer-dos {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 395px) {
   div .columna-footer-uno {
     padding: 2rem 5rem 2rem 5rem;
     width: 100%;

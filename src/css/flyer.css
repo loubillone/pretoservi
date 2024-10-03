@@ -89,7 +89,7 @@
 }
 
 /* Estilos responsivos para pantallas pequeñas */
-@media (max-width: 480px) {
+@media (max-width: 395px) {
   .titulo-img-flyer {
     font-size: 1.2rem;
   }
