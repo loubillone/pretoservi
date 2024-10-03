@@ -135,7 +135,7 @@ const Home = () => {
 
       <div className="container-fluid container-cards-home">
         <div className="row fila-card no-gutters">
-          <div className="col p-0">
+          <div className="col p-0 col-imagen-uno">
             <div className="div-card-uno">
               <img src={cardUno} alt="card uno" />
             </div>
@@ -173,7 +173,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="col p-0">
+          <div className="col  p-0">
             <div className="div-card overlay-container-rojo">
               <img src={cardCuatro} alt="card cuatro" />
               <div className="overlay-text">
