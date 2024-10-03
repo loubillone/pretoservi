@@ -256,7 +256,7 @@
   width: 100%;
   margin: 0;
   position: relative;
-  /* z-index: 1; */
+
   filter: grayscale(1);
 }
 
@@ -471,7 +471,6 @@
   }
 
   .subtitulo-home-nosotros {
-    /* padding-bottom: 1rem; */
     font-size: 2rem;
   }
 
@@ -486,7 +485,45 @@
 
   /*CARDS*/
 
+  .fila-card {
+    flex-direction: column;
+    width: 15rem;
+  }
+
+  .fila-card .col {
+    width: 80%;
+  }
+
+  .col-imagen-uno {
+    display: none;
+  }
+
+  .div-card img {
+    height: 23rem;
+  }
+
+  .overlay-text h3 {
+    font-size: 1.2rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0rem;
+    line-height: 1.2rem;
+  }
+
+  .overlay-text p {
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+
   /*CARDS*/
+
+  /*GALERIA*/
+
+  .photos .galeria-trabajos {
+    grid-template-columns: 220px 220px;
+    grid-template-rows: 220px 220px 220px;
+  }
+
+  /*GALERIA*/
 }
 
 /* -------------------------------------------------------------------------*/
@@ -615,4 +652,21 @@
   .container-cards-home {
     display: none;
   } /*CARDS*/
+
+  /*GALERIA*/
+  .titulo-home-trabajos {
+    font-size: 0.4rem;
+  }
+
+  .subtitulo-home-trabajos {
+    padding-bottom: 1rem;
+    font-size: 1.4rem;
+  }
+
+  .photos .galeria-trabajos {
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+  }
+
+  /*GALERIA*/
 }

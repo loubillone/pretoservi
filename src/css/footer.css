@@ -96,3 +96,27 @@ div .columna-footer-dos {
   color: #d4d7dd;
   font-size: 0.7rem;
 }
+
+@media (max-width: 375px) {
+  div .columna-footer-uno {
+    padding: 2rem 5rem 2rem 5rem;
+    width: 100%;
+  }
+
+  div .columna-footer-dos {
+    padding: 3rem 5rem 1rem 5rem;
+    width: 100%;
+  }
+
+  .container-img-footer img {
+    width: 7rem;
+  }
+
+  .texto-footerUno {
+    font-size: 0.7rem;
+  }
+
+  .numero-footerUno {
+    font-size: 1rem;
+  }
+}
