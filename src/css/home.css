@@ -615,4 +615,21 @@
   .container-cards-home {
     display: none;
   } /*CARDS*/
+
+  /*GALERIA*/
+  .titulo-home-trabajos {
+    font-size: 0.4rem;
+  }
+
+  .subtitulo-home-trabajos {
+    padding-bottom: 1rem;
+    font-size: 1.4rem;
+  }
+
+  .photos .galeria-trabajos {
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+  }
+
+  /*GALERIA*/
 }

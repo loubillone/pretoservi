@@ -216,7 +216,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="row">
+        <div className="row ">
           <div className="col">
             <h2 className="subtitulo-home-trabajos">
               Algunos de nuestros proyectos
