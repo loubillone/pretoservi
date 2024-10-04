@@ -256,6 +256,54 @@ div .container-sobreN {
   .fila-sobreN {
     padding-left: 0rem;
   }
+
+  .titulo-sobreN-img {
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .fila-textoImg-sobreNdos {
+    top: 55%;
+  }
+
+  .subtitulo-sobreN-img {
+    padding-bottom: 0rem;
+    font-size: 1.5rem;
+  }
+
+  .parrafo-sobreN-img {
+    font-size: 0.7rem;
+  }
+
+  .boton-img-sobreN {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: none;
+    font-size: 0.8rem;
+  }
+
+  .caja-numeros-sobreN {
+    width: 400px;
+    height: 100px;
+    margin-left: 3rem;
+  }
+
+  .cajaNumSobre span {
+    width: 40px;
+    height: 40px;
+
+    font-size: 1.2rem;
+  }
+
+  .titulo-caja-imagenNos {
+    font-size: 0.8rem;
+  }
+
+  .texto-caja-imagenNos {
+    font-size: 0.7rem;
+  }
 }
 
 @media (max-width: 480px) {
