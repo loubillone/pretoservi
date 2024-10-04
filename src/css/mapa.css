@@ -83,7 +83,7 @@
   }
 }
 
-@media (max-width: 395px) {
+@media (max-width: 480px) {
   .columna-home-infoPetro {
     justify-content: center;
   }
