@@ -661,6 +661,10 @@
     font-size: 0.4rem;
   }
 
+  .photos {
+    min-height: 75vh;
+  }
+
   .subtitulo-home-trabajos {
     padding-bottom: 1rem;
     font-size: 1.4rem;
