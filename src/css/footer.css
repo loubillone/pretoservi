@@ -113,14 +113,15 @@ div .columna-footer-dos {
   }
 }
 
-@media (max-width: 395px) {
+@media (max-width: 480px) {
   div .columna-footer-uno {
-    padding: 2rem 5rem 2rem 5rem;
+    padding: 2rem 2rem 2rem 2rem;
     width: 100%;
+    text-align: center;
   }
 
   div .columna-footer-dos {
-    padding: 3rem 5rem 1rem 5rem;
+    padding: 3rem 2rem 1rem 2rem;
     width: 100%;
   }
 

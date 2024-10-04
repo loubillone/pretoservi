@@ -368,6 +368,7 @@
 /*MEDIA QUERIES*/
 
 /* Para pantallas de tamaño medio (tablets y pantallas medianas) */
+/* @media (min-width: 600px) and (max-width: 1200px) */
 @media (max-width: 768px) {
   /*IMAGEN HEADER*/
   .container-textoImg-home {
@@ -528,7 +529,9 @@
 
 /* -------------------------------------------------------------------------*/
 /*Para pantallas pequeñas (smartphones) */
-@media (max-width: 395px) {
+
+/* @media (min-width: 600px) and (max-width: 1200px) */
+@media (max-width: 480px) {
   /*IMAGEN HEADER*/
 
   .container-textoImg-home {
@@ -656,6 +659,10 @@
   /*GALERIA*/
   .titulo-home-trabajos {
     font-size: 0.4rem;
+  }
+
+  .photos {
+    min-height: 75vh;
   }
 
   .subtitulo-home-trabajos {
