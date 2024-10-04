@@ -293,4 +293,29 @@ div .container-sobreN {
   .fila-sobreN {
     padding-left: 1.5rem;
   }
+
+  .titulo-sobreN-img {
+    font-size: 0.5rem;
+    padding-bottom: 0rem;
+  }
+
+  .fila-textoImg-sobreNdos {
+    top: 55%;
+  }
+
+  .subtitulo-sobreN-img {
+    padding-bottom: 0rem;
+    font-size: 1rem;
+  }
+
+  .parrafo-sobreN-img {
+    font-size: 0.5rem;
+  }
+
+  .boton-img-sobreN {
+    display: none;
+  }
+  .fila-cajas-numero {
+    top: 120%;
+  }
 }
