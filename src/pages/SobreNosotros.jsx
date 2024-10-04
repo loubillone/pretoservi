@@ -19,7 +19,7 @@ const SobreNosotros = () => {
               <img src={sobreN} alt="personal 25 años de experiencia" />
             </div>
           </div>
-          <div className="col">
+          <div className="col ">
             <div className="row fila-sobreN">
               <div className="col">
                 <span className="titulo-sobreN">SOBRE NOSOTROS</span>

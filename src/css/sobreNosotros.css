@@ -223,10 +223,49 @@ div .container-sobreN {
   height: 20rem;
 }
 
-@media (max-width: 395px) {
+/*MEDIA QUERIES*/
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
   div .container-sobreN {
     margin: 0;
     margin-top: 1rem;
     margin-bottom: 2.5rem;
+  }
+
+  .div-img-sobreN {
+    justify-content: center;
+    padding-right: 0rem;
+  }
+
+  .div-img-sobreN img {
+    width: 10rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .titulo-sobreN {
+    font-size: 0.4rem;
+  }
+  .subtitulo-sobreN {
+    font-size: 1.4rem;
+  }
+
+  .parrafo-sobreN {
+    font-size: 0.5rem;
+    line-height: 1rem;
+    padding-left: 2rem;
+    padding-right: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .col .columna-sn-sn {
+    margin-right: 10rem;
+  }
+
+  .fila-sobreN {
+    padding-left: 1.5rem;
   }
 }
