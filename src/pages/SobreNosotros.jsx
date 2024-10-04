@@ -13,7 +13,7 @@ const SobreNosotros = () => {
       <Flyer />
 
       <div className="container container-sobreN">
-        <div className="row">
+        <div className="row ">
           <div className="col">
             <div className="div-img-sobreN">
               <img src={sobreN} alt="personal 25 años de experiencia" />
@@ -25,9 +25,9 @@ const SobreNosotros = () => {
                 <span className="titulo-sobreN">SOBRE NOSOTROS</span>
               </div>
               <div className="col">
-                <h3 className="subtitulo-sobreN">
+                <h2 className="subtitulo-sobreN">
                   Estamos brindando el mejor servicio al cliente.
-                </h3>
+                </h2>
               </div>
               <div className="col">
                 <p className="parrafo-sobreN">
