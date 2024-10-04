@@ -226,6 +226,35 @@ div .container-sobreN {
 /*MEDIA QUERIES*/
 
 @media (max-width: 768px) {
+  div .container-sobreN {
+    margin: 0;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .div-img-sobreN {
+    justify-content: center;
+    padding-right: 0rem;
+  }
+
+  .div-img-sobreN img {
+    width: 15rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .subtitulo-sobreN {
+    font-size: 1.4rem;
+  }
+
+  .parrafo-sobreN {
+    padding-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .fila-sobreN {
+    padding-left: 0rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -259,10 +288,6 @@ div .container-sobreN {
     padding-right: 4rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-  }
-
-  .col .columna-sn-sn {
-    margin-right: 10rem;
   }
 
   .fila-sobreN {
