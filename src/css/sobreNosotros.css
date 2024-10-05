@@ -146,19 +146,19 @@ div .container-sobreN {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 20rem;
-  height: 7rem;
+  width: 200px;
+  height: 100px;
   margin-left: 3rem;
   background-color: #ffffff;
   box-shadow: 5px 7px 9px 1px rgba(191, 191, 191, 0.55);
 }
 
-.cajaNumSobre {
+.cajaNumSobre span {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 3rem;
-  height: 3rem;
+  width: 50px;
+  height: 50px;
   background-color: #d2153d;
   color: #ffffff;
   font-family: "kanitBold";
@@ -182,6 +182,7 @@ div .container-sobreN {
 .caja-texto-sobreN {
   display: flex;
   flex-direction: column;
+  width: 90%;
 }
 
 .boxInstalacion {
@@ -221,4 +222,207 @@ div .container-sobreN {
 
 .text-area {
   height: 20rem;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 768px) {
+  div .container-sobreN {
+    margin: 0;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .div-img-sobreN {
+    justify-content: center;
+    padding-right: 0rem;
+  }
+
+  .div-img-sobreN img {
+    width: 15rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .subtitulo-sobreN {
+    font-size: 1.4rem;
+  }
+
+  .parrafo-sobreN {
+    padding-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .fila-sobreN {
+    padding-left: 0rem;
+  }
+
+  .titulo-sobreN-img {
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .fila-textoImg-sobreNdos {
+    top: 55%;
+  }
+
+  .subtitulo-sobreN-img {
+    padding-bottom: 0rem;
+    font-size: 1.5rem;
+  }
+
+  .parrafo-sobreN-img {
+    font-size: 0.7rem;
+  }
+
+  .boton-img-sobreN {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: none;
+    font-size: 0.8rem;
+  }
+
+  .caja-numeros-sobreN {
+    width: 400px;
+    height: 100px;
+    margin-left: 3rem;
+  }
+
+  .cajaNumSobre span {
+    width: 40px;
+    height: 40px;
+
+    font-size: 1.2rem;
+  }
+
+  .titulo-caja-imagenNos {
+    font-size: 0.8rem;
+  }
+
+  .texto-caja-imagenNos {
+    font-size: 0.7rem;
+  }
+  .caja-form-instalacion {
+    width: 100%;
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+  }
+
+  .fila-form-instalacion {
+    padding-left: 1rem;
+    padding-right: 0rem;
+  }
+
+  .boxInstalacion {
+    width: 19rem;
+    height: 24rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  div .container-sobreN {
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .div-img-sobreN {
+    justify-content: center;
+    padding-right: 0rem;
+  }
+
+  .div-img-sobreN img {
+    width: 10rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .titulo-sobreN {
+    font-size: 0.4rem;
+  }
+  .subtitulo-sobreN {
+    font-size: 1.4rem;
+  }
+
+  .parrafo-sobreN {
+    font-size: 0.5rem;
+    line-height: 1rem;
+    padding-left: 2rem;
+    padding-right: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .fila-sobreN {
+    padding-left: 1.5rem;
+  }
+
+  .titulo-sobreN-img {
+    font-size: 0.5rem;
+    padding-bottom: 0rem;
+  }
+
+  .fila-textoImg-sobreNdos {
+    top: 55%;
+  }
+
+  .subtitulo-sobreN-img {
+    padding-bottom: 0rem;
+    font-size: 1rem;
+  }
+
+  .parrafo-sobreN-img {
+    font-size: 0.5rem;
+  }
+
+  .boton-img-sobreN {
+    display: none;
+  }
+
+  .fila-cajas-numero {
+    top: 120%;
+  }
+
+  .caja-numeros-sobreN {
+    width: 180px;
+    height: 80px;
+    margin-bottom: 2rem;
+  }
+
+  .cajaNumSobre span {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+
+  .titulo-caja-imagenNos {
+    font-size: 0.8rem;
+  }
+
+  .caja-form-instalacion {
+    width: 100%;
+    margin-top: 23rem;
+    margin-bottom: 2rem;
+  }
+
+  .fila-form-instalacion {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .subtitulo-sobreN-form {
+    font-size: 0.8rem;
+  }
+
+  .input-text {
+    margin-bottom: 1.6rem;
+  }
+
+  .boxInstalacion {
+    width: 20rem;
+    height: 15rem;
+    padding: 0rem;
+  }
 }
