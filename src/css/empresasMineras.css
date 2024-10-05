@@ -107,7 +107,23 @@
 }
 
 /*MEDIA QUERIES*/
-/* @media (max-width: 768px) */
+@media (max-width: 768px) {
+  .grilla .grilla-empMineras {
+    grid-template-columns: 20rem 20rem;
+    grid-template-rows: 15rem 15rem 15rem 15rem;
+  }
+
+  .fila-empMineras .titulo-empMineras {
+    font-size: 2rem;
+    padding: 0rem 2rem 3rem 2rem;
+    line-height: 2rem;
+  }
+
+  .contenedor-empMineras {
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+  }
+}
 @media (max-width: 480px) {
   .contenedor-empMineras {
     margin-top: 1rem;
