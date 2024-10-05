@@ -304,6 +304,22 @@ div .container-sobreN {
   .texto-caja-imagenNos {
     font-size: 0.7rem;
   }
+  .caja-form-instalacion {
+    width: 100%;
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+  }
+
+  .fila-form-instalacion {
+    padding-left: 1rem;
+    padding-right: 0rem;
+  }
+
+  .boxInstalacion {
+    width: 19rem;
+    height: 24rem;
+    padding-right: 1rem;
+  }
 }
 
 @media (max-width: 480px) {
