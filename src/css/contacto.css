@@ -14,3 +14,17 @@
 .text-area-contacto {
   height: 20rem;
 }
+
+@media (max-width: 768px) {
+  .container-form-contacto {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .container-form-contacto {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
