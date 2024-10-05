@@ -385,7 +385,28 @@ div .container-sobreN {
     font-size: 0.8rem;
   }
 
-  .texto-caja-imagenNos {
-    font-size: 0.7rem;
+  .caja-form-instalacion {
+    width: 100%;
+    margin-top: 23rem;
+    margin-bottom: 2rem;
+  }
+
+  .fila-form-instalacion {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .subtitulo-sobreN-form {
+    font-size: 0.8rem;
+  }
+
+  .input-text {
+    margin-bottom: 1.6rem;
+  }
+
+  .boxInstalacion {
+    width: 20rem;
+    height: 15rem;
+    padding: 0rem;
   }
 }
