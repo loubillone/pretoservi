@@ -98,3 +98,35 @@
   font-weight: lighter;
   color: whitesmoke;
 }
+
+/*MEDIA QUERIES*/
+@media (max-width: 480px) {
+  .photos-galeria {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .photos-galeria .galeria-galeria {
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 200px 200px 200px 200px 200px;
+    grid-gap: 0.5rem;
+  }
+
+  .visualizadorImg {
+    max-width: 85%;
+    max-height: 85%;
+  }
+
+  .boton-previo {
+    width: 2.2rem;
+  }
+
+  .boton-siguiente {
+    width: 2.2rem;
+  }
+
+  .boton-galeria {
+    top: 5rem;
+    right: 2rem;
+  }
+}
