@@ -718,3 +718,13 @@
 
   /*GALERIA*/
 }
+
+.link-flecha-azul {
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  color: inherit; /* Asegura que el color del texto sea el mismo que el del div */
+}
+
+.link-flecha-roja {
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  color: inherit; /* Asegura que el color del texto sea el mismo que el del div */
+}

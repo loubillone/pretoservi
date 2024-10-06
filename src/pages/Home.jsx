@@ -31,13 +31,16 @@ const Home = () => {
             especializadas, cisternas móviles y más. ¡Encuentra lo que necesitas
             para mantener tu operación funcionando al máximo!
           </p>
-          <button className="boton-img-home">Contactanos</button>
+          <a href="https://wa.me/5493875112864" target="_blank" rel="noopener noreferrer">
+  <button className="boton-img-home">Contactanos</button>
+</a>
+
         </div>
       </div>
 
       <div className="container-experiencia">
         <div className="boxUno">
-          <span className="num-box">147 </span>
+          <span className="num-box">40+ </span>
           <span className="texto-box">Proyectos</span>
         </div>
         <div className="boxDos">
@@ -118,7 +121,10 @@ const Home = () => {
                 garantizando un servicio confiable y eficiente para la industria
                 petrolera y más allá.
               </p>
-              <button className="boton-img-home mt-1">Sobre Nosotros</button>
+              <a href="/sobreNosotros">
+  <button className="boton-img-home mt-1">Sobre Nosotros</button>
+</a>
+
             </div>
           </div>
           <div className="col columna-home-nosotros__imagenes">
@@ -144,7 +150,7 @@ const Home = () => {
             <div className="div-card overlay-container-rojo">
               <img src={cardDos} alt="card dos" />
               <div className="overlay-text">
-                <h3>Proyecto Minera JOSEMARIA</h3>
+                <h3>Mantenimiento en Sector Minero</h3>
                 <p>
                   Instalación de surtidor Wayne 3G Super Alto Caudal. Puesta en
                   marcha. Provincia de San Juan
@@ -152,15 +158,17 @@ const Home = () => {
               </div>
 
               <div className="card-flecha-azul">
-                <i className="fa fa-long-arrow-right " aria-hidden="true"></i>
-              </div>
+  <a href="/empresasMineras" className="link-flecha-azul">
+    <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
+  </a>
+</div>
             </div>
           </div>
           <div className="col p-0">
             <div className="div-card overlay-container-azul">
               <img src={cardTres} alt="card tres" />
               <div className="overlay-text">
-                <h3>Sector Minero YPF JACARANDA</h3>
+                <h3>YPF San Lorenzo Chico SRL</h3>
                 <p>
                   Instalación y provisión de membranas geotextil y membrana huv
                   apta y para hidrocarburos instalación y provisión de kit de
@@ -169,8 +177,10 @@ const Home = () => {
               </div>
 
               <div className="card-flecha-roja">
-                <i className="fa fa-long-arrow-right " aria-hidden="true"></i>
-              </div>
+  <a href="/empresasMineras" className="link-flecha-roja">
+    <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
+  </a>
+</div>
             </div>
           </div>
           <div className="col  p-0">
@@ -187,23 +197,28 @@ const Home = () => {
                 </p>
               </div>
               <div className="card-flecha-azul">
-                <i className="fa fa-long-arrow-right " aria-hidden="true"></i>
-              </div>
+  <a href="/empresasMineras" className="link-flecha-azul">
+    <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
+  </a>
+</div>
+
             </div>
           </div>
           <div className="col p-0">
             <div className="div-card overlay-container-azul">
               <img src={cardCinco} alt="card cinco" />
               <div className="overlay-text">
-                <h3>Fortino Construcciones SA.</h3>
+                <h3>Otros Proyectos de Mineria</h3>
                 <p>
-                  Obra Finalizada Instalacion de Cañerías hidráulicas y
-                  eléctricas APE.
+                Te invitamos a descubrir otros emocionantes proyectos que hemos realizado en el sector minero. Explora nuestras soluciones innovadoras y efectivas que garantizan la seguridad y eficiencia en cada instalación. ¡Visita nuestra galería de proyectos para conocer más sobre nuestro compromiso con la excelencia en la industria!
                 </p>
               </div>
               <div className="card-flecha-roja">
-                <i className="fa fa-long-arrow-right " aria-hidden="true"></i>
-              </div>
+  <a href="/empresasMineras" className="link-flecha-roja">
+    <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
+  </a>
+</div>
+
             </div>
           </div>
         </div>
