@@ -75,7 +75,10 @@ const SobreNosotros = () => {
               </div>
               <div className="col">
                 <a href="/contacto">
-                  <button className="boton-img-home">Contactanos</button>
+                <a href="https://wa.me/5493875112864" target="_blank" rel="noopener noreferrer">
+  <button className="boton-img-home">Contactanos</button>
+</a>
+
                 </a>
               </div>
             </div>
@@ -105,7 +108,10 @@ const SobreNosotros = () => {
             </div>
             <div className="col">
               <a href="/contacto">
-                <button className="boton-img-home">Contactanos</button>
+              <a href="https://wa.me/5493875112864" target="_blank" rel="noopener noreferrer">
+  <button className="boton-img-home">Contactanos</button>
+</a>
+
               </a>
             </div>
           </div>
