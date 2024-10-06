@@ -43,7 +43,9 @@ const SobreNosotros = () => {
                 </p>
               </div>
               <div className="col">
-                <button className=" boton-img-home">Contactanos</button>
+              <a href="/contacto">
+                <button className="boton-img-home">Contactanos</button>
+            </a>
               </div>
             </div>
           </div>
@@ -71,7 +73,9 @@ const SobreNosotros = () => {
               </p>
             </div>
             <div className="col">
-              <button className="boton-img-sobreN">Contactanos</button>
+            <a href="/contacto">
+                <button className="boton-img-home">Contactanos</button>
+            </a>
             </div>
           </div>
         </div>

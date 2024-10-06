@@ -31,13 +31,15 @@ const Home = () => {
             especializadas, cisternas móviles y más. ¡Encuentra lo que necesitas
             para mantener tu operación funcionando al máximo!
           </p>
-          <button className="boton-img-home">Contactanos</button>
+          <a href="/contacto">
+                <button className="boton-img-home">Contactanos</button>
+            </a>
         </div>
       </div>
 
       <div className="container-experiencia">
         <div className="boxUno">
-          <span className="num-box">147 </span>
+          <span className="num-box">40+ </span>
           <span className="texto-box">Proyectos</span>
         </div>
         <div className="boxDos">
@@ -118,7 +120,9 @@ const Home = () => {
                 garantizando un servicio confiable y eficiente para la industria
                 petrolera y más allá.
               </p>
-              <button className="boton-img-home mt-1">Sobre Nosotros</button>
+              <a href="/sobreNosotros">
+                <button className="boton-img-home mt-1">Sobre Nosotros</button>
+            </a>
             </div>
           </div>
           <div className="col columna-home-nosotros__imagenes">
