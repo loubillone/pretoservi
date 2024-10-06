@@ -232,10 +232,11 @@
 }
 /*BOX HOME NOSOTROS*/
 
-/*CARDS*/
+/* CARDS */
 
 .container-cards-home {
   overflow-x: hidden;
+  position: relative;
 }
 
 .fila-card {
@@ -243,32 +244,54 @@
   text-align: center;
 }
 
-.div-card-uno img {
+.div-card, .div-card-uno {
+  position: relative; /* Importante para que el overlay funcione correctamente */
+  display: inline-block;
+  width: 100%; /* Asegura que todas las cards tengan el mismo tamaño */
+  height: 25rem; /* Asegura que las tarjetas tengan la misma altura */
+}
+
+.div-card img, .div-card-uno img {
   height: 25rem;
   display: block;
   width: 100%;
   margin: 0;
+  
+  position: relative;
+  z-index: 0; /* Imagen detrás del overlay */
 }
 
-.div-card img {
-  height: 25rem;
-  display: block;
+/* Overlay ROJO */
+.overlay-container-rojo::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  margin: 0;
-  position: relative;
-
-  filter: grayscale(1);
+  height: 100%;
+  background-color: #d2153ed5; 
+  z-index: 1;
+  pointer-events: none; 
 }
 
-.overlay-container-rojo {
-  position: relative;
-  background-color: rgba(210, 21, 62, 0.85);
+/* Overlay AZUL */
+.overlay-container-azul::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00215bda; 
+  z-index: 1;
+  pointer-events: none;
 }
 
-.overlay-container-azul {
-  position: relative;
-  background-color: rgba(0, 33, 91, 0.85);
-}
+
+
+
+
+
 
 .overlay-text {
   position: absolute;
@@ -295,27 +318,45 @@
   line-height: 1.2rem;
 }
 
+/* Flecha Azul */
 .card-flecha-azul {
-  background-color: #00215b;
-  color: #ffffff;
-  width: 2rem;
-  height: 2rem;
-  padding-top: 0.2rem;
-  position: absolute;
-  top: 85%;
-  left: 80%;
+  background-color: #00215b; /* Color de fondo inicial */
+  color: #ffffff; /* Color del texto */
+  width: 2rem; /* Ancho de la flecha */
+  height: 2rem; /* Alto de la flecha */
+  padding-top: 0.2rem; /* Espaciado superior */
+  text-align: center; /* Centra el texto */
+  position: absolute; /* Posicionamiento absoluto */
+  top: 85%; /* Posición vertical */
+  left: 80%; /* Posición horizontal */
+  z-index: 3; /* Asegura que esté por encima del overlay */
+  transition: background-color 0.3s; /* Transición suave para el cambio de color */
 }
 
+/* Flecha Roja */
 .card-flecha-roja {
-  background-color: #d2153d;
-  color: #ffffff;
-  width: 2rem;
-  height: 2rem;
-  padding-top: 0.2rem;
-  position: absolute;
-  top: 85%;
-  left: 80%;
+  background-color: #d2153d; /* Color de fondo inicial */
+  color: #ffffff; /* Color del texto */
+  width: 2rem; /* Ancho de la flecha */
+  height: 2rem; /* Alto de la flecha */
+  padding-top: 0.2rem; /* Espaciado superior */
+  text-align: center; /* Centra el texto */
+  position: absolute; /* Posicionamiento absoluto */
+  top: 85%; /* Posición vertical */
+  left: 80%; /* Posición horizontal */
+  z-index: 3; /* Asegura que esté por encima del overlay */
+  transition: background-color 0.3s; /* Transición suave para el cambio de color */
 }
+
+/* Efecto hover para ambas flechas */
+.card-flecha-azul:hover {
+  background-color: #0063c5; /* Color de fondo al hacer hover */
+}
+
+.card-flecha-roja:hover {
+  background-color: #ff0634; /* Color de fondo al hacer hover */
+}
+
 /*CARDS*/
 
 /*GALERIA TRABAJOS*/
