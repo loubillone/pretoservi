@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedor-empMineras {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+.fila-empMineras {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.fila-empMineras .titulo-empMineras {
+  font-size: 2.6rem;
+  font-family: "kanitMedium";
+  padding: 3rem 8rem 3rem 10rem;
+  line-height: 4rem;
+}
+
+.grilla {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.grilla .grilla-empMineras {
+  max-width: 50rem;
+  display: grid;
+  grid-template-columns: 26rem 26rem;
+  grid-template-rows: 19rem 19rem 19rem 19rem;
+}
+
+.grilla .grilla-empMineras img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.grilla .grilla-empMineras .texto-a {
+  background-color: #d2153d;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 4rem 2.5rem 4rem 2.5rem;
+}
+
+.grilla .grilla-empMineras .texto-b {
+  grid-row: 2/3;
+  background-color: #00215b;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 4rem 2.5rem 4rem 2.5rem;
+}
+
+.grilla .grilla-empMineras .texto-c {
+  background-color: #d2153d;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 4rem 2.5rem 4rem 2.5rem;
+}
+
+.grilla .grilla-empMineras .texto-d {
+  grid-row: 4/5;
+  background-color: #00215b;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 4rem 2.5rem 4rem 2.5rem;
+}
+
+.grilla .grilla-empMineras .img-b {
+  grid-column: 2/3;
+}
+
+.grilla .grilla-empMineras .img-d {
+  grid-column: 2/3;
+}
+
+.titulo-grilla-empMineras {
+  font-family: "kanitBold";
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.parrafo-grilla-empMineras {
+  font-family: "latoRegular";
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+  font-weight: 300;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 768px) {
+  .grilla .grilla-empMineras {
+    grid-template-columns: 20rem 20rem;
+    grid-template-rows: 15rem 15rem 15rem 15rem;
+  }
+
+  .fila-empMineras .titulo-empMineras {
+    font-size: 2rem;
+    padding: 0rem 2rem 3rem 2rem;
+    line-height: 2rem;
+  }
+
+  .contenedor-empMineras {
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+  }
+}
+@media (max-width: 480px) {
+  .contenedor-empMineras {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+  .fila-empMineras .titulo-empMineras {
+    font-size: 1.3rem;
+    padding: 1rem 2rem 1rem 1rem;
+    line-height: 2.5rem;
+  }
+
+  .grilla .grilla-empMineras {
+    grid-template-columns: 10rem 10rem;
+    grid-template-rows: 9rem 9rem 9rem 9rem;
+  }
+
+  .titulo-grilla-empMineras {
+    font-size: 0.6rem;
+    padding-bottom: 0rem;
+  }
+
+  .parrafo-grilla-empMineras {
+    font-size: 0.4rem;
+    line-height: 0.8rem;
+  }
+
+  .grilla .grilla-empMineras .texto-a {
+    padding: 1rem 1rem 0rem 1rem;
+  }
+
+  .grilla .grilla-empMineras .texto-b {
+    padding: 1rem 1rem 0rem 1rem;
+  }
+
+  .grilla .grilla-empMineras .texto-c {
+    padding: 1rem 1rem 0rem 1rem;
+  }
+
+  .grilla .grilla-empMineras .texto-d {
+    padding: 1rem 1rem 0rem 1rem;
+  }
+}

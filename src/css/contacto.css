@@ -1,0 +1,30 @@
+.container-form-contacto {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.input-text-contacto {
+  font-family: "kenitLigth";
+  color: #000000;
+  margin-bottom: 1.8rem;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 5px #f1efef;
+}
+
+.text-area-contacto {
+  height: 20rem;
+}
+
+@media (max-width: 768px) {
+  .container-form-contacto {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .container-form-contacto {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
