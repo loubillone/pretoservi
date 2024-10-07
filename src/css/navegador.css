@@ -9,11 +9,6 @@
   src: url("../fonts/KanitLato/Kanit/Kanit-Regular.ttf");
 }
 
-.container-nav {
-  height: 4rem;
-  z-index: 1000;
-}
-
 .container-img-home,
 .img-nav {
   width: 6rem;
@@ -36,4 +31,3 @@
 .nav-items:hover {
   font-weight: bold;
 }
-
