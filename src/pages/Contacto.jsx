@@ -2,18 +2,22 @@ import React, { useRef } from "react";
 import Flyer from "../components/Flyer";
 import Mapa from "../components/Mapa";
 import "../css/contacto.css";
-import emailjs from 'emailjs-com';
-import Swal from 'sweetalert2'; // Ensure you have this installed
+import emailjs from "emailjs-com";
+import Swal from "sweetalert2";
 
 const Contacto = () => {
-  const formRef = useRef(); // Create a ref for the form
+  const formRef = useRef();
 
-  // Handle form submission
   const handleSubmit = (e) => {
-    e.preventDefault(); // Prevent the default form submission
+    e.preventDefault();
 
     emailjs
-      .sendForm("petroservi", "template_u82y3qb", formRef.current, "PKhKvnJcKT-OtLOyJ")
+      .sendForm(
+        "petroservi",
+        "template_u82y3qb",
+        formRef.current,
+        "PKhKvnJcKT-OtLOyJ"
+      )
       .then(
         (result) => {
           console.log(result.text);
@@ -22,7 +26,7 @@ const Contacto = () => {
             title: "Mensaje enviado correctamente",
             text: "Recibimos tu información. Te contactaremos pronto.",
           });
-          formRef.current.reset(); // Reset the form after successful submission
+          formRef.current.reset();
         },
         (error) => {
           console.log(error.text);
@@ -47,17 +51,17 @@ const Contacto = () => {
                   <input
                     type="text"
                     className="form-control input-text-contacto"
-                    name="name" // Add name attribute for EmailJS
+                    name="name"
                     placeholder="Nombre Completo"
-                    required // Make it required
+                    required
                   />
 
                   <input
-                    type="tel" // Change type to "tel" for better validation
+                    type="tel"
                     className="form-control input-text-contacto"
-                    name="phone" // Add name attribute for EmailJS
+                    name="phone"
                     placeholder="Número de teléfono"
-                    required // Make it required
+                    required
                   />
                 </div>
 
@@ -66,17 +70,17 @@ const Contacto = () => {
                     <input
                       type="email"
                       className="form-control input-text-contacto"
-                      name="email" // Add name attribute for EmailJS
+                      name="email"
                       placeholder="Email"
-                      required // Make it required
+                      required
                     />
 
                     <input
                       type="text"
                       className="form-control input-text-contacto"
-                      name="address" // Add name attribute for EmailJS
+                      name="address"
                       placeholder="Dirección"
-                      required // Make it required
+                      required
                     />
                   </div>
                 </div>
@@ -84,12 +88,14 @@ const Contacto = () => {
 
               <textarea
                 rows="4"
-                name="message" // Add name attribute for EmailJS
+                name="message"
                 className="form-control input-text-contacto"
                 placeholder="Escribe tu mensaje aquí"
-                required // Make it required
+                required
               ></textarea>
-              <button type="submit" className="boton-img-home mt-1">Contactanos</button>
+              <button type="submit" className="boton-img-home mt-1">
+                Contactanos
+              </button>
             </form>
           </div>
         </div>

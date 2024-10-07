@@ -6,18 +6,22 @@ import sobreNdos from "../assets/img/sobreNosotros/sobreNdos.png";
 import mano from "../assets/img/home/mano.png";
 import shape from "../assets/img/home/shape.png";
 import tanque from "../assets/img/home/tanque.png";
-import emailjs from 'emailjs-com'; 
-import Swal from 'sweetalert2'; 
+import emailjs from "emailjs-com";
+import Swal from "sweetalert2";
 
 const SobreNosotros = () => {
-  const formRef = useRef(); 
+  const formRef = useRef();
 
-  // Manejar el envío del formulario
   const handleSubmit = (e) => {
-    e.preventDefault(); 
+    e.preventDefault();
 
     emailjs
-      .sendForm("petroservi", "template_u82y3qb", formRef.current, "PKhKvnJcKT-OtLOyJ")
+      .sendForm(
+        "petroservi",
+        "template_u82y3qb",
+        formRef.current,
+        "PKhKvnJcKT-OtLOyJ"
+      )
       .then(
         (result) => {
           console.log(result.text);
@@ -26,7 +30,7 @@ const SobreNosotros = () => {
             title: "Mensaje enviado correctamente",
             text: "Recibimos tu solicitud de cotización. Te contactaremos pronto.",
           });
-          formRef.current.reset(); 
+          formRef.current.reset();
         },
         (error) => {
           console.log(error.text);
@@ -75,10 +79,13 @@ const SobreNosotros = () => {
               </div>
               <div className="col">
                 <a href="/contacto">
-                <a href="https://wa.me/5493875112864" target="_blank" rel="noopener noreferrer">
-  <button className="boton-img-home">Contactanos</button>
-</a>
-
+                  <a
+                    href="https://wa.me/5493875112864"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="boton-img-home">Contactanos</button>
+                  </a>
                 </a>
               </div>
             </div>
@@ -108,10 +115,13 @@ const SobreNosotros = () => {
             </div>
             <div className="col">
               <a href="/contacto">
-              <a href="https://wa.me/5493875112864" target="_blank" rel="noopener noreferrer">
-  <button className="boton-img-home">Contactanos</button>
-</a>
-
+                <a
+                  href="https://wa.me/5493875112864"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="boton-img-home">Contactanos</button>
+                </a>
               </a>
             </div>
           </div>
@@ -169,23 +179,23 @@ const SobreNosotros = () => {
                 Solicitar una Cotización
               </h3>
             </div>
-            <form ref={formRef} onSubmit={handleSubmit}> 
+            <form ref={formRef} onSubmit={handleSubmit}>
               <div className="row">
                 <div className="col">
                   <input
                     type="text"
                     className="form-control input-text"
-                    name="name" 
+                    name="name"
                     placeholder="Nombre Completo"
-                    required 
+                    required
                   />
 
                   <input
-                    type="tel" 
+                    type="tel"
                     className="form-control input-text"
-                    name="phone" 
+                    name="phone"
                     placeholder="Número de teléfono"
-                    required 
+                    required
                   />
                 </div>
 
@@ -194,9 +204,9 @@ const SobreNosotros = () => {
                     <input
                       type="email"
                       className="form-control input-text"
-                      name="email" 
+                      name="email"
                       placeholder="Email"
-                      required 
+                      required
                     />
 
                     <input
@@ -204,7 +214,7 @@ const SobreNosotros = () => {
                       className="form-control input-text"
                       name="service"
                       placeholder="Servicio"
-                      required 
+                      required
                     />
                   </div>
                 </div>
@@ -212,12 +222,14 @@ const SobreNosotros = () => {
 
               <textarea
                 rows="4"
-                name="message" 
+                name="message"
                 className="form-control input-text"
                 placeholder="Mensaje"
                 required
               ></textarea>
-              <button type="submit" className="boton-img-home mt-1">Enviar</button>
+              <button type="submit" className="boton-img-home mt-1">
+                Enviar
+              </button>
             </form>
           </div>
           <div className="col">
