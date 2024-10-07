@@ -11,7 +11,7 @@ const Flyer = () => {
 
   const getImageAndText = () => {
     switch (location.pathname) {
-      case "/sobrenosotros":
+      case "/sobreNosotros":
         return {
           image: flyerSobreNosotros,
           title: "Sobre Nosotros",
