@@ -20,7 +20,6 @@ const Contacto = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
           Swal.fire({
             icon: "success",
             title: "Mensaje enviado correctamente",
@@ -29,7 +28,6 @@ const Contacto = () => {
           formRef.current.reset();
         },
         (error) => {
-          console.log(error.text);
           Swal.fire({
             icon: "error",
             title: "Error al enviar el mensaje",

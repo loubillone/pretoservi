@@ -78,14 +78,12 @@ const SobreNosotros = () => {
                 </p>
               </div>
               <div className="col">
-                <a href="/contacto">
-                  <a
-                    href="https://wa.me/5493875112864"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <button className="boton-img-home">Contactanos</button>
-                  </a>
+                <a
+                  href="https://wa.me/5493875112864"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="boton-img-home">Contactanos</button>
                 </a>
               </div>
             </div>
@@ -114,14 +112,12 @@ const SobreNosotros = () => {
               </p>
             </div>
             <div className="col">
-              <a href="/contacto">
-                <a
-                  href="https://wa.me/5493875112864"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className="boton-img-home">Contactanos</button>
-                </a>
+              <a
+                href="https://wa.me/5493875112864"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="boton-img-home">Contactanos</button>
               </a>
             </div>
           </div>

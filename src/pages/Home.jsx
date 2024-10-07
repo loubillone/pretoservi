@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 import "../css/home.css";
 import homeFlyer from "../assets/img/home/homeFlyer.png";
 import mano from "../assets/img/home/mano.png";
@@ -31,10 +32,13 @@ const Home = () => {
             especializadas, cisternas móviles y más. ¡Encuentra lo que necesitas
             para mantener tu operación funcionando al máximo!
           </p>
-          <a href="https://wa.me/5493875112864" target="_blank" rel="noopener noreferrer">
-  <button className="boton-img-home">Contactanos</button>
-</a>
-
+          <a
+            href="https://wa.me/5493875112864"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="boton-img-home">Contactanos</button>
+          </a>
         </div>
       </div>
 
@@ -121,9 +125,9 @@ const Home = () => {
                 garantizando un servicio confiable y eficiente para la industria
                 petrolera y más allá.
               </p>
-              <a href="/sobreNosotros">
+              <NavLink to="/sobreNosotros">
                 <button className="boton-img-home mt-1">Sobre Nosotros</button>
-            </a>
+              </NavLink>
             </div>
           </div>
           <div className="col columna-home-nosotros__imagenes">
@@ -157,11 +161,10 @@ const Home = () => {
               </div>
 
               <div className="card-flecha-azul">
-  <a href="/empresasMineras" className="link-flecha-azul">
-    <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
-  </a>
-</div>
-
+                <NavLink to="/empresasMineras" className="link-flecha-azul">
+                  <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
+                </NavLink>
+              </div>
             </div>
           </div>
           <div className="col p-0">
@@ -177,11 +180,10 @@ const Home = () => {
               </div>
 
               <div className="card-flecha-roja">
-  <a href="/empresasMineras" className="link-flecha-roja">
-    <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
-  </a>
-</div>
-
+                <NavLink to="/empresasMineras" className="link-flecha-azul">
+                  <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
+                </NavLink>
+              </div>
             </div>
           </div>
           <div className="col  p-0">
@@ -198,11 +200,10 @@ const Home = () => {
                 </p>
               </div>
               <div className="card-flecha-azul">
-  <a href="/empresasMineras" className="link-flecha-azul">
-    <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
-  </a>
-</div>
-
+                <NavLink to="/empresasMineras" className="link-flecha-azul">
+                  <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
+                </NavLink>
+              </div>
             </div>
           </div>
           <div className="col p-0">
@@ -211,15 +212,19 @@ const Home = () => {
               <div className="overlay-text">
                 <h3>Otros proyectos de Mineria.</h3>
                 <p>
-                Te invitamos a descubrir otros emocionantes proyectos que hemos realizado en el sector minero. Explora nuestras soluciones innovadoras y efectivas que garantizan la seguridad y eficiencia en cada instalación. ¡Visita nuestra galería de proyectos para conocer más sobre nuestro compromiso con la excelencia en la industria!
+                  Te invitamos a descubrir otros emocionantes proyectos que
+                  hemos realizado en el sector minero. Explora nuestras
+                  soluciones innovadoras y efectivas que garantizan la seguridad
+                  y eficiencia en cada instalación. ¡Visita nuestra galería de
+                  proyectos para conocer más sobre nuestro compromiso con la
+                  excelencia en la industria!
                 </p>
               </div>
               <div className="card-flecha-roja">
-  <a href="/empresasMineras" className="link-flecha-roja">
-    <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
-  </a>
-</div>
-
+                <NavLink to="/empresasMineras" className="link-flecha-azul">
+                  <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
+                </NavLink>
+              </div>
             </div>
           </div>
         </div>

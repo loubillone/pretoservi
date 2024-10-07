@@ -244,54 +244,49 @@
   text-align: center;
 }
 
-.div-card, .div-card-uno {
-  position: relative; 
+.div-card,
+.div-card-uno {
+  position: relative;
   display: inline-block;
-  width: 100%; 
-  height: 25rem; 
+  width: 100%;
+  height: 25rem;
 }
 
-.div-card img, .div-card-uno img {
+.div-card img,
+.div-card-uno img {
   height: 25rem;
   display: block;
   width: 100%;
   margin: 0;
-  
   position: relative;
-  z-index: 0; 
+  z-index: 0;
 }
 
 /* Overlay ROJO */
 .overlay-container-rojo::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #d2153ed5; 
-  z-index: 1;
-  pointer-events: none; 
-}
-
-/* Overlay AZUL */
-.overlay-container-azul::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #00215bda; 
+  background-color: #d2153ed5;
   z-index: 1;
   pointer-events: none;
 }
 
-
-
-
-
-
+/* Overlay AZUL */
+.overlay-container-azul::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00215bda;
+  z-index: 1;
+  pointer-events: none;
+}
 
 .overlay-text {
   position: absolute;
@@ -320,44 +315,53 @@
 
 /* Flecha Azul */
 .card-flecha-azul {
-  background-color: #00215b; 
-  color: #ffffff; 
-  width: 2rem; 
-  height: 2rem; 
-  padding-top: 0.2rem; 
+  background-color: #00215b;
+  color: #ffffff;
+  width: 2rem;
+  height: 2rem;
+  padding-top: 0.2rem;
   text-align: center;
-  position: absolute; 
-  top: 85%; 
-  left: 80%; 
-  z-index: 3; 
-  transition: background-color 0.3s; 
+  position: absolute;
+  top: 85%;
+  left: 80%;
+  z-index: 3;
+  transition: background-color 0.3s;
 }
 
 /* Flecha Roja */
 .card-flecha-roja {
-  background-color: #d2153d; 
-  color: #ffffff; 
-  width: 2rem; 
-  height: 2rem; 
-  padding-top: 0.2rem; 
-  text-align: center; 
-  position: absolute; 
+  background-color: #d2153d;
+  color: #ffffff;
+  width: 2rem;
+  height: 2rem;
+  padding-top: 0.2rem;
+  text-align: center;
+  position: absolute;
   top: 85%;
-  left: 80%; 
-  z-index: 3; 
-  transition: background-color 0.3s; 
+  left: 80%;
+  z-index: 3;
+  transition: background-color 0.3s;
 }
 
 /* Efecto hover para ambas flechas */
 .card-flecha-azul:hover {
-  background-color: #0063c5; 
+  background-color: #0063c5;
 }
 
 .card-flecha-roja:hover {
-  background-color: #ff0634; 
+  background-color: #ff0634;
 }
 
-/*CARDS HOLI*/
+.link-flecha-roja {
+  text-decoration: none;
+  color: inherit;
+}
+.link-flecha-azul {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*CARDS*/
 
 /*GALERIA TRABAJOS*/
 
@@ -408,8 +412,6 @@
 
 /*MEDIA QUERIES*/
 
-/* Para pantallas de tamaño medio (tablets y pantallas medianas) */
-/* @media (min-width: 600px) and (max-width: 1200px) */
 @media (max-width: 768px) {
   /*IMAGEN HEADER*/
   .container-textoImg-home {
@@ -568,10 +570,6 @@
   /*GALERIA*/
 }
 
-/* -------------------------------------------------------------------------*/
-/*Para pantallas pequeñas (smartphones) */
-
-/* @media (min-width: 600px) and (max-width: 1200px) */
 @media (max-width: 480px) {
   /*IMAGEN HEADER*/
 
@@ -719,11 +717,4 @@
   /*GALERIA*/
 }
 
-.link-flecha-roja {
-  text-decoration: none;
-  color: inherit;
-}
-.link-flecha-azul {
-  text-decoration: none; 
-  color: inherit; 
-}
+/*MEDIA QUERIES*/

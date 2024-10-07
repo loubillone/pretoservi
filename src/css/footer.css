@@ -97,6 +97,8 @@ div .columna-footer-dos {
   font-size: 0.7rem;
 }
 
+/*MEDIA QUERIES*/
+
 @media (max-width: 768px) {
   div .columna-footer-uno {
     align-items: center;
@@ -137,3 +139,5 @@ div .columna-footer-dos {
     font-size: 1rem;
   }
 }
+
+/*MEDIA QUERIES*/
