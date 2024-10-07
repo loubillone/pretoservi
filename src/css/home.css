@@ -718,3 +718,12 @@
 
   /*GALERIA*/
 }
+
+.link-flecha-roja {
+  text-decoration: none;
+  color: inherit;
+}
+.link-flecha-azul {
+  text-decoration: none; 
+  color: inherit; 
+}

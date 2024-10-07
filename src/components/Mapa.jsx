@@ -29,7 +29,7 @@ const Mapa = () => {
             <div className="container-home-infoDir">
               <span className="texto-infoPetro">DIRECCIÓN</span>
               <p className="subtexto-infoPetro">
-                Dirección 123, Salta, Capital, Argentina
+              Pellegrini 633, Salta, Capital, Argentina
               </p>
             </div>
           </div>

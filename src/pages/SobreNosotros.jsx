@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../css/sobreNosotros.css";
 import Flyer from "../components/Flyer";
 import sobreN from "../assets/img/sobreNosotros/sobreN.png";
@@ -6,20 +6,51 @@ import sobreNdos from "../assets/img/sobreNosotros/sobreNdos.png";
 import mano from "../assets/img/home/mano.png";
 import shape from "../assets/img/home/shape.png";
 import tanque from "../assets/img/home/tanque.png";
+import emailjs from 'emailjs-com'; 
+import Swal from 'sweetalert2'; 
 
 const SobreNosotros = () => {
+  const formRef = useRef(); 
+
+  // Manejar el envío del formulario
+  const handleSubmit = (e) => {
+    e.preventDefault(); 
+
+    emailjs
+      .sendForm("petroservi", "template_u82y3qb", formRef.current, "PKhKvnJcKT-OtLOyJ")
+      .then(
+        (result) => {
+          console.log(result.text);
+          Swal.fire({
+            icon: "success",
+            title: "Mensaje enviado correctamente",
+            text: "Recibimos tu solicitud de cotización. Te contactaremos pronto.",
+          });
+          formRef.current.reset(); 
+        },
+        (error) => {
+          console.log(error.text);
+          Swal.fire({
+            icon: "error",
+            title: "Error al enviar el mensaje",
+            text: "Hubo un problema al enviar tu mensaje. Inténtalo de nuevo más tarde.",
+          });
+        }
+      );
+  };
+
   return (
     <div>
       <Flyer />
 
       <div className="container container-sobreN">
-        <div className="row ">
+        <div className="row">
           <div className="col">
             <div className="div-img-sobreN">
               <img src={sobreN} alt="personal 25 años de experiencia" />
             </div>
           </div>
-          <div className="col ">
+          <div className="col">
             <div className="row fila-sobreN">
               <div className="col">
                 <span className="titulo-sobreN">SOBRE NOSOTROS</span>
@@ -43,7 +74,12 @@ const SobreNosotros = () => {
                 </p>
               </div>
               <div className="col">
-                <button className=" boton-img-home">Contactanos</button>
+                <a href="/contacto">
+                <a href="https://wa.me/5493875112864" target="_blank" rel="noopener noreferrer">
+  <button className="boton-img-home">Contactanos</button>
+</a>
+
+                </a>
               </div>
             </div>
           </div>
@@ -71,7 +107,12 @@ const SobreNosotros = () => {
               </p>
             </div>
             <div className="col">
-              <button className="boton-img-sobreN">Contactanos</button>
+              <a href="/contacto">
+              <a href="https://wa.me/5493875112864" target="_blank" rel="noopener noreferrer">
+  <button className="boton-img-home">Contactanos</button>
+</a>
+
+              </a>
             </div>
           </div>
         </div>
@@ -128,42 +169,42 @@ const SobreNosotros = () => {
                 Solicitar una Cotización
               </h3>
             </div>
-            <form>
+            <form ref={formRef} onSubmit={handleSubmit}> 
               <div className="row">
                 <div className="col">
                   <input
                     type="text"
-                    class="form-control input-text"
-                    id="exampleInputEmail1"
-                    aria-describedby="emailHelp"
+                    className="form-control input-text"
+                    name="name" 
                     placeholder="Nombre Completo"
+                    required 
                   />
 
                   <input
-                    type="number"
-                    class="form-control input-text"
-                    id="exampleInputEmail1"
-                    aria-describedby="emailHelp"
+                    type="tel" 
+                    className="form-control input-text"
+                    name="phone" 
                     placeholder="Número de teléfono"
+                    required 
                   />
                 </div>
 
                 <div className="col">
-                  <div class="mb-3">
+                  <div className="mb-3">
                     <input
                       type="email"
-                      class="form-control input-text"
-                      id="exampleInputEmail1"
-                      aria-describedby="emailHelp"
+                      className="form-control input-text"
+                      name="email" 
                       placeholder="Email"
+                      required 
                     />
 
                     <input
                       type="text"
-                      class="form-control input-text"
-                      id="exampleInputEmail1"
-                      aria-describedby="emailHelp"
+                      className="form-control input-text"
+                      name="service"
                       placeholder="Servicio"
+                      required 
                     />
                   </div>
                 </div>
@@ -171,12 +212,12 @@ const SobreNosotros = () => {
 
               <textarea
                 rows="4"
-                name=""
-                id=""
-                class="form-control input-text"
+                name="message" 
+                className="form-control input-text"
                 placeholder="Mensaje"
+                required
               ></textarea>
-              <button className="boton-img-home mt-1">Enviar</button>
+              <button type="submit" className="boton-img-home mt-1">Enviar</button>
             </form>
           </div>
           <div className="col">
