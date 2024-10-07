@@ -62,7 +62,7 @@ const Home = () => {
           <div className="container-data">
             <div className="box-data">
               <div>
-                <img src={tanque} alt="tanque" />
+                <img src={tanque} alt="icono tanque" />
               </div>
 
               <div>
@@ -76,7 +76,7 @@ const Home = () => {
             </div>
             <div className="box-data">
               <div>
-                <img src={shape} alt="shape" />
+                <img src={shape} alt="icono shape" />
               </div>
               <div>
                 <span className="subtitulo-boxTres">
@@ -89,7 +89,7 @@ const Home = () => {
             </div>
             <div className="box-data">
               <div>
-                <img src={mano} alt="mano" />
+                <img src={mano} alt="icono mano" />
               </div>
               <div>
                 <span className="subtitulo-boxTres">
@@ -132,7 +132,7 @@ const Home = () => {
           </div>
           <div className="col columna-home-nosotros__imagenes">
             <div className="imagen-home-nosotrosUno">
-              <img src={homeNosotrosDos} alt="vista arriba" />
+              <img src={homeNosotrosDos} alt="vista arriba minera" />
             </div>
 
             <div className="imagen-home-nosotrosDos">
@@ -248,23 +248,23 @@ const Home = () => {
         <div className="photos">
           <div className="galeria-trabajos">
             <div className="img-a">
-              <img src={homeNosotros} alt="" />
+              <img src={homeNosotros} alt="expendedor" />
             </div>
 
             <div className="img-b">
-              <img src={trabajosUno} alt="" />
+              <img src={trabajosUno} alt="expendedor" />
             </div>
 
             <div className="img-c">
-              <img src={trabajosDos} alt="" />
+              <img src={trabajosDos} alt="expendedor" />
             </div>
 
             <div className="img-d">
-              <img src={trabajosTres} alt="" />
+              <img src={trabajosTres} alt="vista ypf" />
             </div>
 
             <div className="img-e">
-              <img src={trabajosCuatro} alt="" />
+              <img src={trabajosCuatro} alt="minera" />
             </div>
           </div>
         </div>
