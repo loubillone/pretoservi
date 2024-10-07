@@ -11,7 +11,7 @@ const Mapa = () => {
         <div className="row mb-4 mt-5">
           <div className="col-12 p-0">
             <Iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8615.548065392919!2d-65.42587390553953!3d-24.782025767148138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3a35151b7f9%3A0xa5cd992cd587f206!2sSalta!5e0!3m2!1ses-419!2sar!4v1726355091636!5m2!1ses-419!2sar"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1742.5601883733214!2d-65.41741484636202!3d-24.797388241801972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3a6185177c7%3A0xab839726f2203358!2sPellegrini%20633%2C%20A4400%20Salta!5e0!3m2!1ses-419!2sar!4v1728264643462!5m2!1ses-419!2sar"
               width="100%"
               height="300"
               style="border:0;"
@@ -29,7 +29,7 @@ const Mapa = () => {
             <div className="container-home-infoDir">
               <span className="texto-infoPetro">DIRECCIÓN</span>
               <p className="subtexto-infoPetro">
-              Pellegrini 633, Salta, Capital, Argentina
+                Pellegrini 633, Salta, Capital, Argentina
               </p>
             </div>
           </div>
