@@ -51,6 +51,7 @@
 }
 
 .visualizadorImg {
+  margin-top: 4rem;
   width: auto;
   max-width: 90%;
   max-height: 90%;
@@ -58,8 +59,8 @@
 
 .boton-galeria {
   position: absolute;
-  top: 2rem;
-  right: 20rem;
+  top: 5rem;
+  right: 26rem;
   background-color: #d2153d;
   color: white;
   width: 2rem;
@@ -69,6 +70,7 @@
 }
 
 .boton-previo {
+  margin-top: 5rem;
   width: 2rem;
   color: #d2153d;
   border: none;
@@ -76,6 +78,7 @@
 }
 
 .boton-siguiente {
+  margin-top: 5rem;
   width: 2rem;
   color: #d2153d;
   border: none;
@@ -113,8 +116,8 @@
 
   .boton-galeria {
     position: absolute;
-    top: 4rem;
-    right: 12rem;
+    top: 5rem;
+    right: 11rem;
   }
 }
 
@@ -144,7 +147,7 @@
   }
 
   .boton-galeria {
-    top: 5rem;
-    right: 2rem;
+    top: 7rem;
+    right: 1.5rem;
   }
 }
