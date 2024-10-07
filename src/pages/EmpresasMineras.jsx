@@ -23,7 +23,7 @@ const EmpresasMineras = () => {
             <div className="grilla">
               <div className="grilla-empMineras">
                 <div className="img-a">
-                  <img src={empMUno} alt="" />
+                  <img src={empMUno} alt="empresa minera exar" />
                 </div>
 
                 <div className="texto-a">
@@ -39,7 +39,7 @@ const EmpresasMineras = () => {
                 </div>
 
                 <div className="img-b">
-                  <img src={empMDos} alt="" />
+                  <img src={empMDos} alt="empresa minera posco" />
                 </div>
 
                 <div className="texto-b">
@@ -55,7 +55,7 @@ const EmpresasMineras = () => {
                 </div>
 
                 <div className="img-c">
-                  <img src={empMTres} alt="" />
+                  <img src={empMTres} alt="empresa minera pirquitas" />
                 </div>
 
                 <div className="texto-c">
@@ -71,7 +71,7 @@ const EmpresasMineras = () => {
                 </div>
 
                 <div className="img-d">
-                  <img src={empMCuatro} alt="" />
+                  <img src={empMCuatro} alt="empresa minera eramine" />
                 </div>
 
                 <div className="texto-d">

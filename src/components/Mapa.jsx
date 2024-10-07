@@ -35,7 +35,7 @@ const Mapa = () => {
           </div>
           <div className="col columna-home-infoPetro">
             <div className="icono-home-infoPetro">
-              <img src={telefono} alt="" />
+              <img src={telefono} alt="icono telefono" />
             </div>
             <div className="info-home-infoPetro">
               <span className="texto-infoPetro-datos ">TELÉFONOS</span>
@@ -46,7 +46,7 @@ const Mapa = () => {
           </div>
           <div className="col columna-home-infoPetro">
             <div className="icono-home-infoPetro">
-              <img src={mensaje} alt="" />
+              <img src={mensaje} alt="icono mensaje" />
             </div>
             <div className="info-home-infoPetro">
               <span className="texto-infoPetro-datos">EMAIL</span>

@@ -92,7 +92,11 @@ const SobreNosotros = () => {
       </div>
 
       <div className="fila-imagen-sobreNdos">
-        <img src={sobreNdos} alt="" className="img-pages-sobreNdos" />
+        <img
+          src={sobreNdos}
+          alt="vista tanques"
+          className="img-pages-sobreNdos"
+        />
         <div>
           <div className="row fila-textoImg-sobreNdos">
             <div className="col">
@@ -234,7 +238,7 @@ const SobreNosotros = () => {
                 <div className="container-data">
                   <div className="box-data">
                     <div>
-                      <img src={tanque} alt="tanque" />
+                      <img src={tanque} alt="icono tanque" />
                     </div>
 
                     <div>
@@ -248,7 +252,7 @@ const SobreNosotros = () => {
                   </div>
                   <div className="box-data">
                     <div>
-                      <img src={shape} alt="shape" />
+                      <img src={shape} alt="icono shape" />
                     </div>
                     <div>
                       <span className="subtitulo-boxTres">
@@ -261,7 +265,7 @@ const SobreNosotros = () => {
                   </div>
                   <div className="box-data">
                     <div>
-                      <img src={mano} alt="mano" />
+                      <img src={mano} alt="icono mano" />
                     </div>
                     <div>
                       <span className="subtitulo-boxTres">

@@ -76,7 +76,7 @@ const Galeria = () => {
                 <img
                   src={imagen}
                   key={index}
-                  alt=""
+                  alt="imagenes varias de galeria"
                   className="myImg"
                   onClick={() => vistaImagen(imagen, index)}
                 />
