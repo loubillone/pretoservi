@@ -31,9 +31,9 @@ PetroServi es una plataforma web diseñada y desarrollada con **React** para la 
 
 
    🛠 Funcionalidades principales
-✅ Diseño moderno y adaptable a todos los dispositivos 📱💻
-✅ Navegación intuitiva con React Router
-✅ Código modular y reutilizable
+-✅ Diseño moderno y adaptable a todos los dispositivos 📱💻
+-✅ Navegación intuitiva con React Router
+-✅ Código modular y reutilizable
 
 🚀 Desarrollado por: Lourdes Billone
 🔗 LinkedIn: https://www.linkedin.com/in/lourdes-billonear/
