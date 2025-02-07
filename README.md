@@ -1,8 +1,39 @@
-# React + Vite
+# 🚀 PetroServi - Plataforma Web  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 📌 Descripción  
+PetroServi es una plataforma web diseñada y desarrollada con **React** para la empresa **PetroServi**, proporcionando una experiencia fluida y totalmente **responsive** en cualquier dispositivo.  
 
-Currently, two official plugins are available:
+🔗 **Demo en vivo:** [petroservi.netlify.app](https://petroservi.netlify.app/)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## ⚙️ Tecnologías utilizadas  
+- **React** - Biblioteca principal para la interfaz  
+- **React Router** - Navegación entre páginas  
+- **Styled Components / Bootstrap CSS** - Estilos modernos y reutilizables  
+
+
+---
+
+## 📂 Instalación y configuración  
+
+1. **Clonar el repositorio**  
+   bash
+   git clone https://github.com/loubillone/pretoservi.git
+   cd pretoservi
+
+   Instalar dependencias
+2. bash
+   npm install
+3. Ejecutar el proyecto
+   bash
+   npm start
+
+
+   🛠 Funcionalidades principales
+✅ Diseño moderno y adaptable a todos los dispositivos 📱💻
+✅ Navegación intuitiva con React Router
+✅ Código modular y reutilizable
+
+🚀 Desarrollado por: Lourdes Billone
+🔗 LinkedIn: https://www.linkedin.com/in/lourdes-billonear/
