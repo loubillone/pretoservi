@@ -1,5 +1,8 @@
 # 🚀 PetroServi - Plataforma Web  
 
+![React](https://img.shields.io/badge/React-18.2.0-blue.svg)  
+![Responsive Design](https://img.shields.io/badge/Responsive-100%25-success.svg) 
+
 ### 📌 Descripción  
 PetroServi es una plataforma web diseñada y desarrollada con **React** para la empresa **PetroServi**, proporcionando una experiencia fluida y totalmente **responsive** en cualquier dispositivo.  
 
